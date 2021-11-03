@@ -1,6 +1,7 @@
 ## Scraping the Federal Register of Legislation
+## s_file_1: Scraping Principal Acts 1901-2021
 ## Patrick Leslie
-## 29th October 2021
+## November 2021
 
 # rm(list=ls())
 
@@ -10,13 +11,6 @@ library(rvest); library(xml2); library(stringr); library(tidyverse);
 library(RSelenium);library(curl);library(httr)
 
 ## Principal Acts 
-
-
-
-
-
-portfolio<- gsub(" ", "%20", portfolio)
-
 
 title<-c("Ab", "Ac", "Ad", "Ae", "Af", "Ag", "Ai", "Al", "Am", "An", "Ap", "Ar", "As", "At", "Au", "Av",
          "Ba", "Be", "Bi", "Bl", "Bo", "Br", "Bu",
@@ -50,7 +44,7 @@ by_title_year<-list()
 
 
 
-for(i in 2008:2021){
+for(i in 1957:2021){
   yearly<- list()
   for(j in 1:length(title)){
     
@@ -105,7 +99,7 @@ plot<-dat1%>%group_by(year_enacted)%>%
 ggplot(plot, aes(year_enacted, n_leg))+geom_line()+ 
   ggtitle("Principal Acts of the Australian Parliament per year, 1901-2021")+
   scale_y_continuous(breaks = seq(0,120,10))+
-  theme_minimal()+ylab("")+xlab("")+
+  theme_bw()+ylab("")+xlab("")+
   scale_x_continuous(breaks = seq(1900,2020,10))
 
 ggsave("outputs/s_file_1_graph.png", dpi=500)
