@@ -11,6 +11,31 @@ library(rvest); library(xml2); library(stringr); library(tidyverse);
 library(RSelenium);library(curl);library(httr); 
 library(doParallel); library(foreach);library(data.table)
 registerDoParallel(cores=32)
+httr::reset_config()
+
+
+#function to try urls until successful read (adapted from https://stackoverflow.com/questions/12193779/how-to-write-trycatch-in-r)
+
+
+try_url <- function(url){
+  out<-tryCatch(
+    {
+      GET(url,timeout(60))%>%read_html()
+    },
+    error = function(cond){
+      message('Caught an error!')
+      return(NA)
+    },
+    warning = function(cond){
+      message('Caught an warning!')
+      return(NA)
+    },
+    finally = {
+      message('All done, quitting.')
+    }
+  )  
+  return(out)
+}
 
 ## Principal Acts 
 
@@ -20,16 +45,19 @@ principal_acts <- read_csv("outputs/secure outputs/s_file_1_principal_acts.csv")
 principal_acts<-principal_acts%>%arrange(date_enacted)
 
 
-#acts_details_to_2278<-acts_details
-#acts_details_2279_to_4754<-acts_details
+ 
 
-acts_details<- foreach(i=4755:nrow(principal_acts),.verbose=T,.errorhandling="pass",.combine=rbind) %dopar% {
+acts_details<- foreach(i=1:nrow(principal_acts),.verbose=T,.errorhandling="pass",.combine=rbind) %dopar% {
   
     print(i)
     
     url <-   paste0("https://www.legislation.gov.au/Series/",principal_acts$id_principal[i])
     
-    act  <- url%>% GET(.,timeout(30))%>%read_html()
+    
+    act<-NA
+    while (is.na(act)) {
+      act<-try_url(url)
+    }
     
     
     administered_by<-NA
@@ -64,7 +92,11 @@ acts_details<- foreach(i=4755:nrow(principal_acts),.verbose=T,.errorhandling="pa
     #test url
     #url<-"https://www.legislation.gov.au/Details/C2004A05138"
     
-    act  <- url%>% GET(.,timeout(30))%>%read_html()
+    
+    act<-NA
+    while (is.na(act)) {
+      act<-try_url(url)
+    }
     
     word_count <- act %>%
       html_nodes("body")%>%
