@@ -181,6 +181,10 @@ dat1$word_count[dat1$word_count==0]<-NA
 
 dat1<-unique(dat1)
 
+write_csv(dat1, "outputs/s_file_4.csv")
+
+#there are things we've missed here because of the limitations of the scraper.
+
 check_for_manual_update<-dat1%>%group_by(id_amending)%>%summarise(n=n())%>%arrange(-n)
 
 check<-check_for_manual_update[check_for_manual_update$n>=10,]
@@ -191,7 +195,6 @@ check<-check%>% left_join(dat1)%>%select(-id_principal, -n)%>%distinct()
 write_csv(check, "outputs/s_file_4_manual_complete.csv")
 
 
-write_csv(dat1, "outputs/s_file_4.csv")
 
 
 
