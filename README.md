@@ -10,4 +10,4 @@ I'm working on an R Package and a paper.
 
 For now, if you use the data, please cite using the 'citation.bib' file. 
 
-- Patrick Leslie, December 2021
+_Patrick Leslie, December 2021_
