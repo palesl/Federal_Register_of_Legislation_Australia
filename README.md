@@ -6,8 +6,8 @@ In the secure outputs folder is the most recent data. Some initial analysis in t
 
 Please let me know if you find any errors! 
 
-I'm working on an R Package and a quick paper. 
+I'm working on an R Package and a paper. 
 
-If you use the data, please cite using the 'citation.bib' file. 
+For now, if you use the data, please cite using the 'citation.bib' file. 
 
 - Patrick Leslie, December 2021
