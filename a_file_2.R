@@ -181,23 +181,29 @@ parliament_sum[,3:5]<-parliament_sum[,3:5]*100
 
 ggplot(parliament_sum, aes(election_date, amended_same_term))+
   geom_step() + ylab("Amended same term as enacted (%)") + xlab('')+
-  scale_y_continuous(limits = c(0,60)) + theme_minimal()+ 
-  scale_x_date(date_breaks="5 year", date_labels = "'%y")
+  scale_y_continuous(limits = c(0,50)) + theme_minimal()+ 
+  scale_x_date(date_breaks="5 year", date_labels = "%Y")+
+  theme(axis.text.x = element_text(angle = 90))+
+  theme(axis.text.x = element_text(vjust = 0.5))
 
 ggsave("outputs/a_file_2_graph_1_amended_same_term.png",dpi=500 )
 
 ggplot(parliament_sum, aes(election_date, repealed_same_term))+
   geom_step() + ylab("Repealed same term as enacted (%)") + xlab('')+
-  scale_y_continuous(limits = c(0,60)) + theme_minimal()+ 
-  scale_x_date(date_breaks="5 year", date_labels = "'%y")
+  scale_y_continuous(limits = c(0,50)) + theme_minimal()+ 
+  scale_x_date(date_breaks="5 year", date_labels = "%Y")+
+  theme(axis.text.x = element_text(angle = 90))+
+  theme(axis.text.x = element_text(vjust = 0.5))
 
 ggsave("outputs/a_file_2_graph_2_repealed_same_term.png",dpi=500 )
 
 
 ggplot(parliament_sum, aes(election_date, altered_same_term))+
   geom_step() + ylab("Amended or Repealed \nsame term as enacted (%)") + xlab('')+
-  scale_y_continuous(limits = c(0,60)) + theme_minimal() + 
-  scale_x_date(date_breaks="5 year", date_labels = "'%y")
+  scale_y_continuous(limits = c(0,50)) + theme_minimal() + 
+  scale_x_date(date_breaks="5 year", date_labels = "%Y")+
+  theme(axis.text.x = element_text(angle = 90))+
+  theme(axis.text.x = element_text(vjust = 0.5))
 
 ggsave("outputs/a_file_2_graph_3_altered_same_term.png",dpi=500 )
 
