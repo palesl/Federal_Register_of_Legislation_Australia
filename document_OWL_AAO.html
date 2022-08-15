@@ -1,0 +1,756 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2113.5">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Courier; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
+    span.Apple-tab-span {white-space:pre}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html lang="en"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;head&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;title&gt;Administrative Arrangements Orders Ontology&lt;/title&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;link rel="stylesheet" type="text/css" href="style.css"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;div id="pylode"&gt;made by &lt;a href="http://github.com/rdflib/pyLODE"&gt;pyLODE&lt;/a&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;h1&gt;Administrative Arrangements Orders Ontology&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1">&lt;section id="metadata"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h2 style="display:none;"&gt;Metadata&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;dl&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dt&gt;IRI&lt;/dt&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dd&gt;&lt;code&gt;http://linked.data.gov.au/def/aao&lt;/code&gt;&lt;/dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dt&gt;Creator(s)&lt;/dt&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;a href="https://orcid.org/0000-0002-8742-7730"&gt;Nicholas J. Car&lt;/a&gt; (&lt;a href="mailto:nicholas.car@csiro.au"&gt;nicholas.car@csiro.au&lt;/a&gt;) of &lt;a href="http://catalogue.linked.data.gov.au/def/csiro"&gt;CSIRO&lt;/a&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;a href="https://orcid.org/0000-0002-3884-3420"&gt;Simon J.D.Cox&lt;/a&gt; (&lt;a href="mailto:simon.cox@csiro.au"&gt;simon.cox@csiro.au&lt;/a&gt;) of &lt;a href="http://catalogue.linked.data.gov.au/def/csiro"&gt;CSIRO&lt;/a&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dt&gt;Contributors(s)&lt;/dt&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>Neil Bacon of &lt;a href="http://catalogue.linked.data.gov.au/def/csiro"&gt;CSIRO&lt;/a&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>David Morton of &lt;a href="http://catalogue.linked.data.gov.au/def/finance"&gt;Department of Finance&lt;/a&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dt&gt;Imports&lt;/dt&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;a href="http://www.w3.org/2006/time"&gt;time:&lt;/a&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;a href="http://linked.data.gov.au/def/auorg/"&gt;auorg:&lt;/a&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dt&gt;License&lt;/dt&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dd&gt;&lt;a href="https://creativecommons.org/licenses/by/4.0/"&gt;Attribution 4.0 International (CC BY 4.0)&lt;/a&gt;&lt;/dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dt&gt;Ontology Source&lt;/dt&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dd&gt;&lt;a href="aao.ttl"&gt;RDF (turtle)&lt;/a&gt;&lt;/dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dt&gt;Further Documentation&lt;/dt&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">          </span>&lt;p&gt;See the code repository online containing this ontology for further documentaion:&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">          </span>&lt;ul&gt;&lt;li&gt;&lt;a href="https://github.com/CSIRO-enviro-informatics/aao-ont"&gt;AAO Ontology in GitHub&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">      </span>&lt;/dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/dl&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p1"><span class="s1">&lt;section id="toc"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Table of Contents&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;ol&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#classes"&gt;Classes&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#objectproperties"&gt;Object Properties&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#datatypeproperties"&gt;Datatype Properties&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#annotationproperties"&gt;Annotation Properties&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#namespaces"&gt;Namespaces&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/ol&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p1"><span class="s1">&lt;section id="overview"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Overview&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="figure"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;a href="image/aao.png"&gt;&lt;img src="image/aao.png" alt="AAO Ont overview diagram" style="width:1000px" /&gt;&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="caption"&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; he AAO ontology's main classes and properties&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p1"><span class="s1">&lt;section id="classes"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Classes &lt;span style="float:right; font-size:smaller;"&gt;&lt;a href=""&gt;&amp;uparrow;&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;ul class="hlist"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#aaopart"&gt;AAO Part&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#actofparliament"&gt;Act of Parliament&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#actionassociation"&gt;Action association&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#administrativearrangementsorder"&gt;Administrative Arrangements Order&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#administrativearrangementsorderamendment"&gt;Administrative Arrangements Order Amendment&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#legislation"&gt;Legislation&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#legislativeinstrument"&gt;Legislative Instrument&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#matter"&gt;Matter&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#notifiableinstrument"&gt;Notifiable Instrument&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#partofanact"&gt;Part of an Act&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#prerogativeinstrument"&gt;Prerogative Instrument&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#qualifiedact"&gt;Qualified Act&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#regulation"&gt;Regulation&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#responsibilityassociation"&gt;Responsibility association&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="entity class" id="administrativearrangementsorder"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h3&gt;Administrative Arrangements Order&lt;sup title="class" class="type-c"&gt;c&lt;/sup&gt;&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;IRI&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;&lt;code&gt;http://linked.data.gov.au/def/aao#AAO&lt;/code&gt;&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Restrictions&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/hasPart"&gt;dct:hasPart&lt;/a&gt; &lt;span class="cardinality"&gt;min&lt;/span&gt; 1&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/replaces"&gt;dct:replaces&lt;/a&gt; &lt;span class="cardinality"&gt;max&lt;/span&gt; 1&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/hasPart"&gt;dct:hasPart&lt;/a&gt; &lt;span class="cardinality"&gt;only&lt;/span&gt; &lt;a href="#aaopart"&gt;aao:AAO-Part&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/issued"&gt;dct:issued&lt;/a&gt; &lt;span class="cardinality"&gt;exactly&lt;/span&gt; 1&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://linked.data.gov.au/def/legislation#dateOfRegistration"&gt;leg:dateOfRegistration&lt;/a&gt; &lt;sup class="sup-dp" title="datatype property"&gt;dp&lt;/sup&gt; &lt;span class="cardinality"&gt;exactly&lt;/span&gt; 1&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/isReplacedBy"&gt;dct:isReplacedBy&lt;/a&gt; &lt;span class="cardinality"&gt;only&lt;/span&gt; &lt;a href="#administrativearrangementsorder"&gt;aao:AAO&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/replaces"&gt;dct:replaces&lt;/a&gt; &lt;span class="cardinality"&gt;only&lt;/span&gt; &lt;a href="#administrativearrangementsorder"&gt;aao:AAO&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/modified"&gt;dct:modified&lt;/a&gt; &lt;span class="cardinality"&gt;only&lt;/span&gt; &lt;a href="http://www.w3.org/2001/XMLSchema#date"&gt;xsd:date&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/temporal"&gt;dct:temporal&lt;/a&gt; &lt;span class="cardinality"&gt;only&lt;/span&gt; &lt;a href="http://www.w3.org/2006/time#ProperInterval"&gt;time:ProperInterval&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/issued"&gt;dct:issued&lt;/a&gt; &lt;span class="cardinality"&gt;only&lt;/span&gt; &lt;a href="http://www.w3.org/2001/XMLSchema#date"&gt;xsd:date&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/isReplacedBy"&gt;dct:isReplacedBy&lt;/a&gt; &lt;span class="cardinality"&gt;max&lt;/span&gt; 1&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://linked.data.gov.au/def/legislation#dateOfRegistration"&gt;leg:dateOfRegistration&lt;/a&gt; &lt;sup class="sup-dp" title="datatype property"&gt;dp&lt;/sup&gt; &lt;span class="cardinality"&gt;only&lt;/span&gt; &lt;a href="http://www.w3.org/2001/XMLSchema#date"&gt;xsd:date&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://linked.data.gov.au/def/legislation#regID"&gt;leg:regID&lt;/a&gt; &lt;sup class="sup-ap" title="annotation property"&gt;ap&lt;/sup&gt; &lt;span class="cardinality"&gt;exactly&lt;/span&gt; 1&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/temporal"&gt;dct:temporal&lt;/a&gt; &lt;span class="cardinality"&gt;exactly&lt;/span&gt; 1&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;In range of&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#definedbyaao"&gt;aao:definedByAAO&lt;/a&gt; &lt;sup class="sup-op" title="object property"&gt;op&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#amends"&gt;aao:amends&lt;/a&gt; &lt;sup class="sup-op" title="object property"&gt;op&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="entity class" id="administrativearrangementsorderamendment"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h3&gt;Administrative Arrangements Order Amendment&lt;sup title="class" class="type-c"&gt;c&lt;/sup&gt;&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;IRI&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;&lt;code&gt;http://linked.data.gov.au/def/aao#AAO-Amendment&lt;/code&gt;&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Restrictions&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/issued"&gt;dct:issued&lt;/a&gt; &lt;span class="cardinality"&gt;only&lt;/span&gt; &lt;a href="http://www.w3.org/2001/XMLSchema#date"&gt;xsd:date&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://linked.data.gov.au/def/legislation#dateOfRegistration"&gt;leg:dateOfRegistration&lt;/a&gt; &lt;sup class="sup-dp" title="datatype property"&gt;dp&lt;/sup&gt; &lt;span class="cardinality"&gt;exactly&lt;/span&gt; 1&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/issued"&gt;dct:issued&lt;/a&gt; &lt;span class="cardinality"&gt;exactly&lt;/span&gt; 1&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#amends"&gt;aao:amends&lt;/a&gt; &lt;sup class="sup-op" title="object property"&gt;op&lt;/sup&gt; &lt;span class="cardinality"&gt;only&lt;/span&gt; &lt;a href="#administrativearrangementsorder"&gt;aao:AAO&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/hasPart"&gt;dct:hasPart&lt;/a&gt; &lt;span class="cardinality"&gt;only&lt;/span&gt; &lt;a href="#aaopart"&gt;aao:AAO-Part&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#amends"&gt;aao:amends&lt;/a&gt; &lt;sup class="sup-op" title="object property"&gt;op&lt;/sup&gt; &lt;span class="cardinality"&gt;exactly&lt;/span&gt; 1&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://linked.data.gov.au/def/legislation#dateOfRegistration"&gt;leg:dateOfRegistration&lt;/a&gt; &lt;sup class="sup-dp" title="datatype property"&gt;dp&lt;/sup&gt; &lt;span class="cardinality"&gt;only&lt;/span&gt; &lt;a href="http://www.w3.org/2001/XMLSchema#date"&gt;xsd:date&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/hasPart"&gt;dct:hasPart&lt;/a&gt; &lt;span class="cardinality"&gt;min&lt;/span&gt; 1&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="entity class" id="aaopart"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h3&gt;AAO Part&lt;sup title="class" class="type-c"&gt;c&lt;/sup&gt;&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;IRI&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;&lt;code&gt;http://linked.data.gov.au/def/aao#AAO-Part&lt;/code&gt;&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Description&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>A part of an AAO, usually concerned with one Department</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Restrictions&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/isPartOf"&gt;dct:isPartOf&lt;/a&gt; &lt;span class="cardinality"&gt;only&lt;/span&gt; (&lt;a href="#administrativearrangementsorder"&gt;aao:AAO&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt; or &lt;a href="#administrativearrangementsorderamendment"&gt;aao:AAO-Amendment&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;)&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/isPartOf"&gt;dct:isPartOf&lt;/a&gt; &lt;span class="cardinality"&gt;exactly&lt;/span&gt; 1&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#matterdealtwith"&gt;aao:matterDealtWith&lt;/a&gt; &lt;sup class="sup-op" title="object property"&gt;op&lt;/sup&gt; &lt;span class="cardinality"&gt;min&lt;/span&gt; 1&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#administeredlegislation"&gt;aao:administeredLegislation&lt;/a&gt; &lt;sup class="sup-op" title="object property"&gt;op&lt;/sup&gt; &lt;span class="cardinality"&gt;min&lt;/span&gt; 1&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;In domain of&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#partnumber"&gt;aao:part-number&lt;/a&gt; &lt;sup class="sup-dp" title="datatype property"&gt;dp&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="entity class" id="actionassociation"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h3&gt;Action association&lt;sup title="class" class="type-c"&gt;c&lt;/sup&gt;&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;IRI&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;&lt;code&gt;http://linked.data.gov.au/def/aao#Action&lt;/code&gt;&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Restrictions&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#matterdealtwith"&gt;aao:matterDealtWith&lt;/a&gt; &lt;sup class="sup-op" title="object property"&gt;op&lt;/sup&gt; &lt;span class="cardinality"&gt;max&lt;/span&gt; 1&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#administeredlegislation"&gt;aao:administeredLegislation&lt;/a&gt; &lt;sup class="sup-op" title="object property"&gt;op&lt;/sup&gt; &lt;span class="cardinality"&gt;max&lt;/span&gt; 1&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#definedbyaao"&gt;aao:definedByAAO&lt;/a&gt; &lt;sup class="sup-op" title="object property"&gt;op&lt;/sup&gt; &lt;span class="cardinality"&gt;exactly&lt;/span&gt; 1&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/temporal"&gt;dct:temporal&lt;/a&gt; &lt;span class="cardinality"&gt;exactly&lt;/span&gt; 1 &lt;a href="http://www.w3.org/2006/time#ProperInterval"&gt;time:ProperInterval&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="entity class" id="matter"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h3&gt;Matter&lt;sup title="class" class="type-c"&gt;c&lt;/sup&gt;&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;IRI&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;&lt;code&gt;http://linked.data.gov.au/def/aao#Matter&lt;/code&gt;&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Description&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>A a descriptive phrase of an area of responsibility, dealt with by a department</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Super-classes&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://www.w3.org/ns/prov#Activity"&gt;prov:Activity&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Restrictions&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://www.w3.org/2000/01/rdf-schema#label"&gt;rdfs:label&lt;/a&gt; &lt;span class="cardinality"&gt;exactly&lt;/span&gt; 1&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#qualifiedresponsibility"&gt;aao:qualifiedResponsibility&lt;/a&gt; &lt;sup class="sup-op" title="object property"&gt;op&lt;/sup&gt; &lt;span class="cardinality"&gt;min&lt;/span&gt; 1&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;In range of&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#matterdealtwith"&gt;aao:matterDealtWith&lt;/a&gt; &lt;sup class="sup-op" title="object property"&gt;op&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="entity class" id="qualifiedact"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h3&gt;Qualified Act&lt;sup title="class" class="type-c"&gt;c&lt;/sup&gt;&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;IRI&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;&lt;code&gt;http://linked.data.gov.au/def/aao#Qualified-Act&lt;/code&gt;&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Super-classes&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://linked.data.gov.au/def/legislation#Legislation"&gt;leg:Legislation&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://www.w3.org/ns/prov#Entity"&gt;prov:Entity&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Restrictions&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#exceptiontolegislation"&gt;aao:exceptionToLegislation&lt;/a&gt; &lt;sup class="sup-op" title="object property"&gt;op&lt;/sup&gt; &lt;span class="cardinality"&gt;min&lt;/span&gt; 0&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#includedlegislation"&gt;aao:includedLegislation&lt;/a&gt; &lt;sup class="sup-op" title="object property"&gt;op&lt;/sup&gt; &lt;span class="cardinality"&gt;min&lt;/span&gt; 1&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#includedlegislation"&gt;aao:includedLegislation&lt;/a&gt; &lt;sup class="sup-op" title="object property"&gt;op&lt;/sup&gt; &lt;span class="cardinality"&gt;max&lt;/span&gt; 1 &lt;a href="http://linked.data.gov.au/def/legislation#Act"&gt;leg:Act&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;In domain of&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#exceptiontolegislation"&gt;aao:exceptionToLegislation&lt;/a&gt; &lt;sup class="sup-op" title="object property"&gt;op&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#includedlegislation"&gt;aao:includedLegislation&lt;/a&gt; &lt;sup class="sup-op" title="object property"&gt;op&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="entity class" id="responsibilityassociation"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h3&gt;Responsibility association&lt;sup title="class" class="type-c"&gt;c&lt;/sup&gt;&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;IRI&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;&lt;code&gt;http://linked.data.gov.au/def/aao#Responsibility&lt;/code&gt;&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Restrictions&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/temporal"&gt;dct:temporal&lt;/a&gt; &lt;span class="cardinality"&gt;exactly&lt;/span&gt; 1 &lt;a href="http://www.w3.org/2006/time#ProperInterval"&gt;time:ProperInterval&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#definedbyaao"&gt;aao:definedByAAO&lt;/a&gt; &lt;sup class="sup-op" title="object property"&gt;op&lt;/sup&gt; &lt;span class="cardinality"&gt;exactly&lt;/span&gt; 1&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#responsibledepartment"&gt;aao:responsibleDepartment&lt;/a&gt; &lt;sup class="sup-op" title="object property"&gt;op&lt;/sup&gt; &lt;span class="cardinality"&gt;exactly&lt;/span&gt; 1&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;In domain of&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#definedbyaao"&gt;aao:definedByAAO&lt;/a&gt; &lt;sup class="sup-op" title="object property"&gt;op&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;In range of&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#qualifiedresponsibility"&gt;aao:qualifiedResponsibility&lt;/a&gt; &lt;sup class="sup-op" title="object property"&gt;op&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="entity class" id="actofparliament"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h3&gt;Act of Parliament&lt;sup title="class" class="type-c"&gt;c&lt;/sup&gt;&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;IRI&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;&lt;code&gt;http://linked.data.gov.au/def/legislation#Act&lt;/code&gt;&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Super-classes&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://linked.data.gov.au/def/legislation#Legislation"&gt;leg:Legislation&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Restrictions&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/date"&gt;dct:date&lt;/a&gt; &lt;span class="cardinality"&gt;exactly&lt;/span&gt; 1 &lt;a href="http://www.w3.org/2001/XMLSchema#gYear"&gt;xsd:gYear&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/issued"&gt;dct:issued&lt;/a&gt; &lt;span class="cardinality"&gt;exactly&lt;/span&gt; 1 &lt;a href="http://www.w3.org/2001/XMLSchema#date"&gt;xsd:date&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://linked.data.gov.au/def/legislation#regID"&gt;leg:regID&lt;/a&gt; &lt;sup class="sup-ap" title="annotation property"&gt;ap&lt;/sup&gt; &lt;span class="cardinality"&gt;exactly&lt;/span&gt; 1&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/hasPart"&gt;dct:hasPart&lt;/a&gt; &lt;span class="cardinality"&gt;only&lt;/span&gt; &lt;a href="http://linked.data.gov.au/def/legislation#Act-Part"&gt;leg:Act-Part&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/title"&gt;dct:title&lt;/a&gt; &lt;span class="cardinality"&gt;exactly&lt;/span&gt; 1&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="entity class" id="partofanact"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h3&gt;Part of an Act&lt;sup title="class" class="type-c"&gt;c&lt;/sup&gt;&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;IRI&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;&lt;code&gt;http://linked.data.gov.au/def/legislation#Act-Part&lt;/code&gt;&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Description&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>Part of an Act of Parlianment</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Super-classes&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://linked.data.gov.au/def/legislation#Legislation"&gt;leg:Legislation&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Restrictions&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/isPartOf"&gt;dct:isPartOf&lt;/a&gt; &lt;span class="cardinality"&gt;only&lt;/span&gt; &lt;a href="http://linked.data.gov.au/def/legislation#Act"&gt;leg:Act&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;In range of&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#exceptiontolegislation"&gt;aao:exceptionToLegislation&lt;/a&gt; &lt;sup class="sup-op" title="object property"&gt;op&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="entity class" id="legislation"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h3&gt;Legislation&lt;sup title="class" class="type-c"&gt;c&lt;/sup&gt;&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;IRI&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;&lt;code&gt;http://linked.data.gov.au/def/legislation#Legislation&lt;/code&gt;&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Restrictions&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://linked.data.gov.au/def/legislation#regID"&gt;leg:regID&lt;/a&gt; &lt;sup class="sup-ap" title="annotation property"&gt;ap&lt;/sup&gt; &lt;span class="cardinality"&gt;exactly&lt;/span&gt; 1&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Sub-classes&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://linked.data.gov.au/def/legislation#Prerogative-Instrument"&gt;leg:Prerogative-Instrument&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://linked.data.gov.au/def/legislation#Regulation"&gt;leg:Regulation&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#qualifiedact"&gt;aao:Qualified-Act&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://linked.data.gov.au/def/legislation#Act"&gt;leg:Act&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://linked.data.gov.au/def/legislation#Legislative-Instrument"&gt;leg:Legislative-Instrument&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://linked.data.gov.au/def/legislation#Act-Part"&gt;leg:Act-Part&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://linked.data.gov.au/def/legislation#Notifiable-Instrument"&gt;leg:Notifiable-Instrument&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="entity class" id="legislativeinstrument"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h3&gt;Legislative Instrument&lt;sup title="class" class="type-c"&gt;c&lt;/sup&gt;&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;IRI&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;&lt;code&gt;http://linked.data.gov.au/def/legislation#Legislative-Instrument&lt;/code&gt;&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Super-classes&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://linked.data.gov.au/def/legislation#Legislation"&gt;leg:Legislation&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="entity class" id="notifiableinstrument"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h3&gt;Notifiable Instrument&lt;sup title="class" class="type-c"&gt;c&lt;/sup&gt;&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;IRI&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;&lt;code&gt;http://linked.data.gov.au/def/legislation#Notifiable-Instrument&lt;/code&gt;&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Super-classes&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://linked.data.gov.au/def/legislation#Legislation"&gt;leg:Legislation&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="entity class" id="prerogativeinstrument"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h3&gt;Prerogative Instrument&lt;sup title="class" class="type-c"&gt;c&lt;/sup&gt;&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;IRI&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;&lt;code&gt;http://linked.data.gov.au/def/legislation#Prerogative-Instrument&lt;/code&gt;&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Super-classes&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://linked.data.gov.au/def/legislation#Legislation"&gt;leg:Legislation&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="entity class" id="regulation"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h3&gt;Regulation&lt;sup title="class" class="type-c"&gt;c&lt;/sup&gt;&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;IRI&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;&lt;code&gt;http://linked.data.gov.au/def/legislation#Regulation&lt;/code&gt;&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Super-classes&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://linked.data.gov.au/def/legislation#Legislation"&gt;leg:Legislation&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;&lt;br/&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p1"><span class="s1">&lt;section id="objectproperties"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Object Properties &lt;span style="float:right; font-size:smaller;"&gt;&lt;a href=""&gt;&amp;uparrow;&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;ul class="hlist"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#administeredlegislation"&gt;administered legislation&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#amends"&gt;amends&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#definedbyaao"&gt;defined by AAO&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#exceptiontolegislation"&gt;exception to legislation&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#includedlegislation"&gt;included legislation&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#matterdealtwith"&gt;matter dealt with&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#qualifiedresponsibility"&gt;qualified responsibility &lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#responsibledepartment"&gt;responsible department&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="entity property" id="administeredlegislation"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h3&gt;administered legislation&lt;sup title="object property" class="type-op"&gt;op&lt;/sup&gt;&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;IRI&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;&lt;code&gt;http://linked.data.gov.au/def/aao#administeredLegislation&lt;/code&gt;&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Domain(s)&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>(&lt;a href="#aaopart"&gt;aao:AAO-Part&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt; or &lt;a href="#actionassociation"&gt;aao:Action&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;)</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Range(s)&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#qualifiedact"&gt;aao:Qualified-Act&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://linked.data.gov.au/def/legislation#Act"&gt;leg:Act&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="entity property" id="amends"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h3&gt;amends&lt;sup title="object property" class="type-op"&gt;op&lt;/sup&gt;&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;IRI&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;&lt;code&gt;http://linked.data.gov.au/def/aao#amends&lt;/code&gt;&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Range(s)&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#administrativearrangementsorder"&gt;aao:AAO&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="entity property" id="definedbyaao"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h3&gt;defined by AAO&lt;sup title="object property" class="type-op"&gt;op&lt;/sup&gt;&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;IRI&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;&lt;code&gt;http://linked.data.gov.au/def/aao#definedByAAO&lt;/code&gt;&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Domain(s)&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#responsibilityassociation"&gt;aao:Responsibility&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Range(s)&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#administrativearrangementsorder"&gt;aao:AAO&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="entity property" id="exceptiontolegislation"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h3&gt;exception to legislation&lt;sup title="object property" class="type-op"&gt;op&lt;/sup&gt;&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;IRI&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;&lt;code&gt;http://linked.data.gov.au/def/aao#exceptionToLegislation&lt;/code&gt;&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Domain(s)&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#qualifiedact"&gt;aao:Qualified-Act&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Range(s)&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://linked.data.gov.au/def/legislation#Act-Part"&gt;leg:Act-Part&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="entity property" id="includedlegislation"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h3&gt;included legislation&lt;sup title="object property" class="type-op"&gt;op&lt;/sup&gt;&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;IRI&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;&lt;code&gt;http://linked.data.gov.au/def/aao#includedLegislation&lt;/code&gt;&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Domain(s)&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#qualifiedact"&gt;aao:Qualified-Act&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Range(s)&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://linked.data.gov.au/def/legislation#Act"&gt;leg:Act&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://linked.data.gov.au/def/legislation#Act-Part"&gt;leg:Act-Part&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="entity property" id="matterdealtwith"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h3&gt;matter dealt with&lt;sup title="object property" class="type-op"&gt;op&lt;/sup&gt;&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;IRI&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;&lt;code&gt;http://linked.data.gov.au/def/aao#matterDealtWith&lt;/code&gt;&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Domain(s)&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>(&lt;a href="#aaopart"&gt;aao:AAO-Part&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt; or &lt;a href="#actionassociation"&gt;aao:Action&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;)</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Range(s)&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#matter"&gt;aao:Matter&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="entity property" id="qualifiedresponsibility"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h3&gt;qualified responsibility &lt;sup title="object property" class="type-op"&gt;op&lt;/sup&gt;&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;IRI&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;&lt;code&gt;http://linked.data.gov.au/def/aao#qualifiedResponsibility&lt;/code&gt;&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Domain(s)&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>(&lt;a href="#matter"&gt;aao:Matter&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt; or &lt;a href="http://linked.data.gov.au/def/legislation#Legislation"&gt;leg:Legislation&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;)</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Range(s)&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#responsibilityassociation"&gt;aao:Responsibility&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="entity property" id="responsibledepartment"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h3&gt;responsible department&lt;sup title="object property" class="type-op"&gt;op&lt;/sup&gt;&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;IRI&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;&lt;code&gt;http://linked.data.gov.au/def/aao#responsibleDepartment&lt;/code&gt;&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Super-properties&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/relation"&gt;dct:relation&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Domain(s)&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>(&lt;a href="#aaopart"&gt;aao:AAO-Part&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt; or &lt;a href="#responsibilityassociation"&gt;aao:Responsibility&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;)</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Range(s)&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://linked.data.gov.au/def/auorg/DepartmentOfState"&gt;auorg:DepartmentOfState&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p1"><span class="s1">&lt;section id="datatypeproperties"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Datatype Properties &lt;span style="float:right; font-size:smaller;"&gt;&lt;a href=""&gt;&amp;uparrow;&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;ul class="hlist"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#partnumber"&gt;part number&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#dateofregistration"&gt;date of registration&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="entity property" id="partnumber"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h3&gt;part number&lt;sup title="datatype property" class="type-dp"&gt;dp&lt;/sup&gt;&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;IRI&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;&lt;code&gt;http://linked.data.gov.au/def/aao#part-number&lt;/code&gt;&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Domain(s)&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#aaopart"&gt;aao:AAO-Part&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Range(s)&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://www.w3.org/2001/XMLSchema#integer"&gt;xsd:integer&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="entity property" id="dateofregistration"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h3&gt;date of registration&lt;sup title="datatype property" class="type-dp"&gt;dp&lt;/sup&gt;&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;IRI&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;&lt;code&gt;http://linked.data.gov.au/def/legislation#dateOfRegistration&lt;/code&gt;&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Description&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>Date when the AAO was added to the registry at legislation.gov.au</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Super-properties&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/date"&gt;dct:date&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p1"><span class="s1">&lt;section id="annotationproperties"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Annotation Properties &lt;span style="float:right; font-size:smaller;"&gt;&lt;a href=""&gt;&amp;uparrow;&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;ul class="hlist"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;a href="#federalregisteridentifier"&gt;federal register identifier&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="entity property" id="federalregisteridentifier"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h3&gt;federal register identifier&lt;sup title="annotation property" class="type-ap"&gt;ap&lt;/sup&gt;&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;IRI&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;&lt;code&gt;http://linked.data.gov.au/def/legislation#regID&lt;/code&gt;&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Description&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>Official identifier in the Australian Government Federal Register of Legislation</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Super-properties&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://www.w3.org/2004/02/skos/core#notation"&gt;skos:notation&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://purl.org/dc/terms/identifier"&gt;dct:identifier&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Range(s)&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="http://www.w3.org/2001/XMLSchema#string"&gt;xsd:string&lt;/a&gt; &lt;sup class="sup-c" title="class"&gt;c&lt;/sup&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/td&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p1"><span class="s1">&lt;section id="namespaces"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Namespaces &lt;span style="float:right; font-size:smaller;"&gt;&lt;a href=""&gt;&amp;uparrow;&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;dl&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dt&gt;&lt;em&gt;default (:)&lt;/em&gt;&lt;/dt&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dd&gt;&lt;code&gt;http://linked.data.gov.au/def/aao#&lt;/code&gt;&lt;/dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dt&gt;aao&lt;/dt&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dd&gt;&lt;code&gt;http://linked.data.gov.au/def/aao#&lt;/code&gt;&lt;/dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dt&gt;auorg&lt;/dt&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dd&gt;&lt;code&gt;http://linked.data.gov.au/def/auorg/&lt;/code&gt;&lt;/dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dt&gt;dct&lt;/dt&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dd&gt;&lt;code&gt;http://purl.org/dc/terms/&lt;/code&gt;&lt;/dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dt&gt;foaf&lt;/dt&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dd&gt;&lt;code&gt;http://xmlns.com/foaf/0.1/&lt;/code&gt;&lt;/dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dt&gt;leg&lt;/dt&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dd&gt;&lt;code&gt;http://linked.data.gov.au/def/legislation#&lt;/code&gt;&lt;/dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dt&gt;org&lt;/dt&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dd&gt;&lt;code&gt;http://www.w3.org/ns/org#&lt;/code&gt;&lt;/dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dt&gt;owl&lt;/dt&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dd&gt;&lt;code&gt;http://www.w3.org/2002/07/owl#&lt;/code&gt;&lt;/dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dt&gt;pav&lt;/dt&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dd&gt;&lt;code&gt;http://purl.org/pav&lt;/code&gt;&lt;/dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dt&gt;prov&lt;/dt&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dd&gt;&lt;code&gt;http://www.w3.org/ns/prov#&lt;/code&gt;&lt;/dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dt&gt;rdf&lt;/dt&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dd&gt;&lt;code&gt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&lt;/code&gt;&lt;/dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dt&gt;rdfs&lt;/dt&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dd&gt;&lt;code&gt;http://www.w3.org/2000/01/rdf-schema#&lt;/code&gt;&lt;/dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dt&gt;sdo&lt;/dt&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dd&gt;&lt;code&gt;https://schema.org/&lt;/code&gt;&lt;/dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dt&gt;skos&lt;/dt&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dd&gt;&lt;code&gt;http://www.w3.org/2004/02/skos/core#&lt;/code&gt;&lt;/dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dt&gt;time&lt;/dt&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dd&gt;&lt;code&gt;http://www.w3.org/2006/time#&lt;/code&gt;&lt;/dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dt&gt;xml&lt;/dt&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dd&gt;&lt;code&gt;http://www.w3.org/XML/1998/namespace&lt;/code&gt;&lt;/dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dt&gt;xsd&lt;/dt&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;dd&gt;&lt;code&gt;http://www.w3.org/2001/XMLSchema#&lt;/code&gt;&lt;/dd&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/dl&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div id="legend"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Legend&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;table class="entity"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;tr&gt;&lt;td&gt;&lt;sup class="type-c" title="Classes"&gt;c&lt;/sup&gt;&lt;/td&gt;&lt;td&gt;Classes&lt;/td&gt;&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;tr&gt;&lt;td&gt;&lt;sup class="type-op" title="Object Properties"&gt;op&lt;/sup&gt;&lt;/td&gt;&lt;td&gt;Object Properties&lt;/td&gt;&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;tr&gt;&lt;td&gt;&lt;sup class="type-dp" title="Data Properties"&gt;dp&lt;/sup&gt;&lt;/td&gt;&lt;td&gt;Data Properties&lt;/td&gt;&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;tr&gt;&lt;td&gt;&lt;sup class="type-ap" title="Annotation Properties"&gt;dp&lt;/sup&gt;&lt;/td&gt;&lt;td&gt;Annotation Properties&lt;/td&gt;&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;tr&gt;&lt;td&gt;&lt;sup class="type-p" title="Properties"&gt;p&lt;/sup&gt;&lt;/td&gt;&lt;td&gt;Properties&lt;/td&gt;&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;tr&gt;&lt;td&gt;&lt;sup class="type-ni" title="Named Individuals"&gt;ni&lt;/sup&gt;&lt;/td&gt;&lt;td&gt;Named Individuals&lt;/td&gt;&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+</body>
+</html>

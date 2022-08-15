@@ -1,0 +1,1639 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff0\stshfdbch0\stshfloch0\stshfhich0\stshfbi0\deflang3081\deflangfe3081{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f35\fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Tahoma;}{\f132\froman\fcharset238\fprq2 Times New Roman CE;}{\f133\froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\f135\froman\fcharset161\fprq2 Times New Roman Greek;}{\f136\froman\fcharset162\fprq2 Times New Roman Tur;}{\f137\froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f138\froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\f139\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f140\froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\f142\fswiss\fcharset238\fprq2 Arial CE;}{\f143\fswiss\fcharset204\fprq2 Arial Cyr;}{\f145\fswiss\fcharset161\fprq2 Arial Greek;}
+{\f146\fswiss\fcharset162\fprq2 Arial Tur;}{\f147\fswiss\fcharset177\fprq2 Arial (Hebrew);}{\f148\fswiss\fcharset178\fprq2 Arial (Arabic);}{\f149\fswiss\fcharset186\fprq2 Arial Baltic;}{\f150\fswiss\fcharset163\fprq2 Arial (Vietnamese);}
+{\f482\fswiss\fcharset238\fprq2 Tahoma CE;}{\f483\fswiss\fcharset204\fprq2 Tahoma Cyr;}{\f485\fswiss\fcharset161\fprq2 Tahoma Greek;}{\f486\fswiss\fcharset162\fprq2 Tahoma Tur;}{\f487\fswiss\fcharset177\fprq2 Tahoma (Hebrew);}
+{\f488\fswiss\fcharset178\fprq2 Tahoma (Arabic);}{\f489\fswiss\fcharset186\fprq2 Tahoma Baltic;}{\f490\fswiss\fcharset163\fprq2 Tahoma (Vietnamese);}{\f491\fswiss\fcharset222\fprq2 Tahoma (Thai);}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;
+\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;
+\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 \snext0 Normal;}{\s1\ql \li0\ri0\keepn\widctlpar
+\tx1304\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \b\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 \sbasedon0 \snext0 heading 1;}{\s2\ql \fi-181\li181\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel1\adjustright\rin0\lin181\itap0 
+\i\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 \sbasedon0 \snext0 heading 2;}{\s3\ql \fi-180\li180\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel2\adjustright\rin0\lin180\itap0 \i\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 
+\sbasedon0 \snext0 heading 3;}{\s4\qc \fi-181\li181\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel3\adjustright\rin0\lin181\itap0 \b\i\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 \sbasedon0 \snext0 heading 4;}{
+\s5\ql \fi-180\li180\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel4\adjustright\rin0\lin180\itap0 \fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 \sbasedon0 \snext0 heading 5;}{\s6\ql \fi-181\li181\ri0\keepn\widctlpar
+\tx1304\faauto\outlinelevel5\adjustright\rin0\lin181\itap0 \fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 \sbasedon0 \snext0 heading 6;}{\s7\ql \li0\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel6\adjustright\rin0\lin0\itap0 
+\i\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 \sbasedon0 \snext0 heading 7;}{\*\cs10 \additive \ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1024\langfe1024\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}{\s15\ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 
+\f1\fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 \sbasedon0 \snext15 Style1;}{\s16\ql \fi-1304\li1304\ri0\keep\keepn\widctlpar\tx1304\faauto\adjustright\rin0\lin1304\itap0 \b\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 
+\sbasedon0 \snext16 Body Text Indent 2;}{\s17\ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \i\fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 \sbasedon0 \snext17 Body Text 2;}{\s18\ql \li0\ri0\widctlpar
+\tx1304\faauto\adjustright\rin0\lin0\itap0 \b\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 \sbasedon0 \snext18 Body Text;}{\*\cs19 \additive \sbasedon10 page number;}{\s20\ql \li0\ri0\widctlpar
+\tqc\tx4153\tqr\tx8306\faauto\adjustright\rin0\lin0\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 \sbasedon0 \snext20 header;}{\s21\ql \li0\ri0\widctlpar\tqc\tx4153\tqr\tx8306\faauto\adjustright\rin0\lin0\itap0 
+\fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 \sbasedon0 \snext21 footer;}{\s22\ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 \sbasedon0 \snext22 
+Body Text Indent 3;}{\s23\qc \li0\ri0\widctlpar\tx567\tx1134\faauto\adjustright\rin0\lin0\itap0 \b\fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 \sbasedon0 \snext23 Title;}{\*\cs24 \additive \ul\cf12 \sbasedon10 FollowedHyperlink;}{
+\s25\ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \f35\fs16\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 \sbasedon0 \snext25 \ssemihidden \styrsid2439204 Balloon Text;}{\*\cs26 \additive \fs16 \sbasedon10 \ssemihidden \styrsid2439204 
+annotation reference;}{\s27\ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 \sbasedon0 \snext27 \ssemihidden \styrsid2439204 annotation text;}{
+\s28\ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \b\fs20\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 \sbasedon27 \snext27 \ssemihidden \styrsid2439204 annotation subject;}}{\*\listtable{\list\listtemplateid67698689\listsimple{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360\lin360 }{\listname ;}\listid753668519}}{\*\listoverridetable
+{\listoverride\listid753668519\listoverridecount0\ls1}}{\*\revtbl {Unknown;}{Author;}}{\*\rsidtbl \rsid13480\rsid28388\rsid141089\rsid142243\rsid152686\rsid213355\rsid421979\rsid467384\rsid525316\rsid592030\rsid609935\rsid610537\rsid665495\rsid673749\rsid723758\rsid921133
+\rsid925147\rsid940491\rsid943732\rsid989086\rsid998350\rsid1013691\rsid1121894\rsid1190110\rsid1314306\rsid1339129\rsid1402367\rsid1448102\rsid1448459\rsid1508135\rsid1603083\rsid1641971\rsid1644747\rsid1645886\rsid1658165\rsid1669112\rsid1704186
+\rsid1776932\rsid1787258\rsid1849057\rsid1902707\rsid1907008\rsid1929324\rsid2035938\rsid2169846\rsid2229614\rsid2241935\rsid2246489\rsid2319452\rsid2370410\rsid2371382\rsid2383553\rsid2439204\rsid2444106\rsid2503900\rsid2559400\rsid2641372\rsid2705210
+\rsid2716374\rsid2833641\rsid2835925\rsid2848372\rsid2849482\rsid2898543\rsid2904812\rsid2953029\rsid2954582\rsid2957310\rsid3032907\rsid3091450\rsid3145921\rsid3165467\rsid3177705\rsid3224804\rsid3232995\rsid3308930\rsid3489328\rsid3492551\rsid3552787
+\rsid3622772\rsid3692503\rsid3752920\rsid3754024\rsid3760166\rsid3933222\rsid4023509\rsid4024785\rsid4030233\rsid4261151\rsid4348769\rsid4400178\rsid4459072\rsid4461305\rsid4523245\rsid4591690\rsid4665170\rsid4677552\rsid4682576\rsid4740506\rsid4792440
+\rsid4804919\rsid4809102\rsid4870065\rsid4873313\rsid4933801\rsid4988335\rsid4994596\rsid5009085\rsid5046871\rsid5065954\rsid5118836\rsid5330120\rsid5336411\rsid5461643\rsid5512001\rsid5521036\rsid5582738\rsid5788873\rsid5898447\rsid5903448\rsid5908537
+\rsid5909370\rsid5918295\rsid6252910\rsid6307608\rsid6385308\rsid6423634\rsid6428551\rsid6568636\rsid6702730\rsid6715524\rsid6825525\rsid6842674\rsid6975206\rsid6976176\rsid7032886\rsid7088217\rsid7275320\rsid7277417\rsid7284004\rsid7303270\rsid7358797
+\rsid7367584\rsid7419600\rsid7475301\rsid7495098\rsid7502006\rsid7543488\rsid7545860\rsid7616325\rsid7806583\rsid7886758\rsid7948429\rsid8027230\rsid8086668\rsid8134983\rsid8353970\rsid8400748\rsid8464882\rsid8534852\rsid8666949\rsid8677744\rsid8682202
+\rsid8735145\rsid8741870\rsid8743602\rsid8810824\rsid8811941\rsid8922106\rsid9009101\rsid9256817\rsid9384124\rsid9508687\rsid9526561\rsid9598458\rsid9636078\rsid9641473\rsid9655136\rsid9656875\rsid9713417\rsid9718061\rsid9721082\rsid9786105\rsid9924208
+\rsid9964968\rsid9966978\rsid10035376\rsid10093257\rsid10243438\rsid10289610\rsid10294912\rsid10303975\rsid10311869\rsid10312766\rsid10430875\rsid10496286\rsid10503745\rsid10561673\rsid10580249\rsid10624939\rsid10687164\rsid10814581\rsid10815696
+\rsid10900629\rsid10972940\rsid11039303\rsid11084476\rsid11106570\rsid11214161\rsid11223495\rsid11278714\rsid11282351\rsid11350243\rsid11361132\rsid11364642\rsid11408231\rsid11415453\rsid11535444\rsid11608114\rsid11621640\rsid11630182\rsid11667600
+\rsid11670572\rsid11675320\rsid11809689\rsid11821589\rsid11881726\rsid11928204\rsid12014662\rsid12020896\rsid12067733\rsid12128082\rsid12221798\rsid12325385\rsid12340590\rsid12393096\rsid12405350\rsid12413866\rsid12454812\rsid12533176\rsid12543403
+\rsid12584842\rsid12679894\rsid12789338\rsid12849030\rsid12870966\rsid13046173\rsid13111261\rsid13116347\rsid13117136\rsid13136526\rsid13200184\rsid13253659\rsid13325802\rsid13378035\rsid13378953\rsid13439169\rsid13506393\rsid13531380\rsid13592841
+\rsid13772227\rsid13774072\rsid13775523\rsid13777210\rsid13831864\rsid13835827\rsid13850020\rsid13902454\rsid13919305\rsid13964867\rsid13982889\rsid14101183\rsid14108057\rsid14242976\rsid14311139\rsid14314603\rsid14433975\rsid14494591\rsid14500264
+\rsid14549035\rsid14563092\rsid14568425\rsid14632930\rsid14704086\rsid14834078\rsid14879775\rsid14894185\rsid14894716\rsid14898098\rsid14951128\rsid14957148\rsid14965034\rsid15028128\rsid15033507\rsid15154506\rsid15169131\rsid15230023\rsid15284506
+\rsid15294346\rsid15296820\rsid15346065\rsid15753215\rsid15758287\rsid15799203\rsid15803159\rsid15805661\rsid16013128\rsid16019494\rsid16131222\rsid16151073\rsid16193110\rsid16217343\rsid16320114\rsid16344076\rsid16389393\rsid16473447\rsid16481862
+\rsid16725723}{\*\generator Microsoft Word 10.0.4219;}{\info{\title Administrative Arrangements Order}{\creatim\yr2006\mo2\dy15\hr14\min42}{\revtim\yr2006\mo3\dy8\hr14\min26}{\printim\yr2005\mo7\dy15\hr12\min48}{\version3}{\edmins7}{\nofpages45}
+{\nofwords10960}{\nofchars62472}{\*\category Administrative Arrangements Order}{\nofcharsws73286}{\vern16469}}\paperw11907\paperh16840\margl1701\margr1559\margt1247\margb1134 
+\widowctrl\ftnbj\aenddoc\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\hyphcaps0\formshade\horzdoc\dghspace120\dgvspace120\dghorigin1701\dgvorigin1984\dghshow0\dgvshow3
+\jcompress\viewkind1\viewscale90\pgbrdrhead\pgbrdrfoot\nolnhtadjtbl\rempersonalinfo\rsidroot10503745 \fet0{\*\ftnsep \pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {
+\insrsid13982889 \chftnsep 
+\par }}{\*\ftnsepc \pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 \chftnsepc 
+\par }}{\*\aftnsep \pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 \chftnsep 
+\par }}{\*\aftnsepc \pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 \chftnsepc 
+\par }}\sectd \binfsxn257\binsxn257\psz9\pgnrestart\linex0\headery709\footery301\colsx709\endnhere\titlepg\sectdefaultcl\sftnbj {\header \pard\plain \s20\ql \li0\ri0\widctlpar\tqc\tx4153\tqr\tx8306\pvpara\phmrg\posxc\posy0\faauto\adjustright\rin0\lin0\itap0 
+\fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\field{\*\fldinst {\cs19\insrsid13982889 PAGE  }}{\fldrslt {\cs19\lang1024\langfe1024\noproof\insrsid10503745 28}}}{\cs19\insrsid13982889 
+\par }\pard \s20\ql \li0\ri0\widctlpar\tqc\tx4153\tqr\tx8306\faauto\adjustright\rin0\lin0\itap0 {\insrsid13982889 
+\par }}{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}
+{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8
+\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain \s23\qr \li0\ri0\widctlpar\tx567\tx1134\faauto\adjustright\rin0\lin0\itap0 
+\b\fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\fs26\insrsid13982889 
+\par }\pard \s23\qc \li0\ri0\widctlpar\tx567\tx1134\faauto\adjustright\rin0\lin0\itap0 {\insrsid13982889 COMMONWEALTH OF AUSTRALIA
+\par }\pard\plain \qc \li0\ri0\widctlpar\tx567\tx1134\faauto\adjustright\rin0\lin0\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\b\insrsid13982889 
+\par 
+\par ADMINISTRATIVE ARRANGEMENTS ORDER
+\par }\pard \ql \li0\ri0\widctlpar\tx567\tx1134\faauto\adjustright\rin0\lin0\itap0 {\insrsid13982889 
+\par 
+\par I, }{\fs26\insrsid13982889 PHILIP MICHAEL JEFFERY}{\insrsid13982889 , Governor-General of the Commonwealth of Australia, acting with the advice of the Federal Executive Council, revoke all administrative arrangements previously ordered and order that:
+
+\par 
+\par }\pard \ql \fi-720\li720\ri0\widctlpar\tx567\tx1134\faauto\adjustright\rin0\lin720\itap0 {\insrsid13982889 1.\tab The matters dealt with by a Department of State include:
+\par 
+\par }\pard \ql \fi-1134\li1134\ri0\widctlpar\tx567\tx1134\faauto\adjustright\rin0\lin1134\itap0 {\insrsid13982889 \tab (a)\tab the matters referred to in the Part of the Schedule relating to that Department; and
+\par }\pard \ql \fi-720\li720\ri0\widctlpar\tx567\tx1134\faauto\adjustright\rin0\lin720\itap0 {\insrsid13982889 
+\par }\pard \ql \fi-1134\li1134\ri0\widctlpar\tx567\tx1134\faauto\adjustright\rin0\lin1134\itap0 {\insrsid13982889 \tab (b)\tab matters arising under the legislation administered by a Minister of State administering the Department.
+\par }\pard \ql \fi-720\li720\ri0\widctlpar\tx567\tx1134\faauto\adjustright\rin0\lin720\itap0 {\insrsid13982889 
+\par 2.\tab The legislation administered by a Minister of State administering a Department is:
+\par 
+\par }\pard \ql \fi-1134\li1134\ri0\widctlpar\tx567\tx1134\faauto\adjustright\rin0\lin1134\itap0 {\insrsid13982889 \tab (a)\tab the legislation referred to in the Part of the Schedule relating to that Department; and
+\par }\pard \ql \fi-720\li720\ri0\widctlpar\tx567\tx1134\faauto\adjustright\rin0\lin720\itap0 {\insrsid13982889 
+\par }\pard \ql \fi-1134\li1134\ri0\widctlpar\tx567\tx1134\faauto\adjustright\rin0\lin1134\itap0 {\insrsid13982889 \tab (b)\tab legislation passed before or after the date of this Order, that relates t
+o a matter dealt with by the Department, not being legislation referred to in another Part of the Schedule.
+\par }\pard \ql \fi-720\li720\ri0\widctlpar\tx567\tx1134\faauto\adjustright\rin0\lin720\itap0 {\insrsid13982889 
+\par 
+\par }\pard \ql \li4320\ri0\widctlpar\tx567\tx1134\faauto\adjustright\rin0\lin4320\itap0 {\insrsid13982889 Signed and sealed with the Great Seal of Australia on 16 December 2004
+\par }\pard \ql \li0\ri0\widctlpar\tx567\tx1134\faauto\adjustright\rin0\lin0\itap0 {\insrsid13982889 
+\par \tab \tab \tab \tab \tab \tab \tab \tab \tab 
+\par \tab \tab \tab \tab \tab \tab \tab \tab [SIGNED]
+\par 
+\par 
+\par }\pard \ql \li5040\ri0\widctlpar\tx567\tx1134\faauto\adjustright\rin0\lin5040\itap0 {\insrsid13982889 Governor-General
+\par }\pard \ql \li0\ri0\widctlpar\tx567\tx1134\faauto\adjustright\rin0\lin0\itap0 {\insrsid13982889 
+\par 
+\par 
+\par 
+\par By His Excellency's Command
+\par 
+\par 
+\par [SIGNED]
+\par 
+\par 
+\par Prime Minister
+\par }{\fs26\insrsid13982889 
+\par }{\b\fs32\insrsid13982889\charrsid10496286 *}{\b\insrsid13982889\charrsid10496286 The schedule is as amended by an Order in Council dated }{\b\insrsid13982889 21 July 2005}{\b\insrsid7088217  and }{\b\insrsid2383553 \line }{\b\insrsid7088217 
+27 January 2006.}{\fs26\insrsid13982889 
+\par }\pard \qc \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\fs26\insrsid13982889 \sect }\sectd \binfsxn257\binsxn257\psz9\pgnrestart\linex0\headery709\footery301\colsx709\endnhere\titlepg\sectdefaultcl\sftnbj \pard\plain 
+\qc \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\b\fs26\insrsid13982889 SCHEDULE
+\par 
+\par ADMINISTRATIVE ARRANGEMENTS
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 
+\par }\pard \ql \fi-1304\li1304\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin1304\itap0 {\b\fs26\insrsid13982889 PART 1 \tab THE DEPARTMENT OF AGRICULTURE, FISHERIES AND FORESTRY
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 
+\par }\pard \qc \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 Matters dealt with by the Department
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 
+\par Agricultural, pastoral, fishing, food and forest industries 
+\par Water, soils, and other natural resources
+\par Rural adjustment and drought issues
+\par Rural industries inspection and quarantine
+\par Primary industries research including economic research
+\par Commodity marketing, including export promotion and agribusiness
+\par Commodity-specific international organisations and activities
+\par Administration of international commodity agreements
+\par Administration of export controls on agricultural, fisheries and forestry industries products
+\par Food policy, processing and exports
+\par }{\b\i\fs26\insrsid13982889 
+\par }\pard \qc \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 Legislation administered by the Minister}{\fs26\insrsid13982889 
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 
+\par Agricultural and Veterinary Chemical Products (Collection of Levy) Act 1994
+\par Agricultural and Veterinary Chemical Products Levy Imposition (Customs) Act 1994
+\par Agricultural and Veterinary Chemical Products Levy Imposition (Excise) Act 1994
+\par Agricultural and Veterinary Chemical Products Levy Imposition (General) Act 1994
+\par Agricultural and Veterinary Chemicals Act 1994
+\par Agricultural and Veterinary Chemicals (Consequential Amendments) Act 1994
+\par Agricultural and Veterinary Chemicals (Administration) Act 1992
+\par Agricultural and Veterinary Chemicals Code Act 1994
+\par Australian Animal Health Council (Live-stock Industries) Funding Act 1996
+\par Australian Meat and Live-stock Industry Act 1997
+\par Australian Meat and Live-stock Industry (Repeals and Consequential Provisions) Act 1997
+\par Australian Meat and Live-stock Legislation (Consequential Amendments and Transitional Provisions) Act 1985
+\par Australian Meat and Live-stock (Quotas) Act 1990
+\par Australian Wine and Brandy Corporation Act 1980
+\par Ballast Water Research and Development Funding Levy Act 1998}{\i\fs26\insrsid13982889\charrsid2246489 
+\par }{\i\fs26\insrsid13982889 Biological Control Act 1984
+\par Brigalow Lands Agreement Act 1962}{\fs26\insrsid13982889 
+\par }{\i\fs26\insrsid13982889 Chowilla Reservoir Agreement Act 1963
+\par Coarse Grains Levy (Consequential Provisions) Act 1992
+\par Dairy Adjustment Act 1974
+\par Dairy Adjustment Levy (Customs) Act 2000
+\par Dairy Adjustment Levy (Excise) Act 2000
+\par Dairy Adjustment Levy (General) Act 2000
+\par Dairy Industry Adjustment Act 2000
+\par Dairy Industry Service Reform Act 2003
+\par Dairy Industry Stabilization Levy (Termination of Levy) Act 1986
+\par Dairy Legislation (Transitional Provisions and Consequential Amendments) Act 1986
+\par Dairy Produce Act 1986
+\par Dartmouth Reservoir Agreement Act 1970}{\fs26\insrsid13982889 
+\par }{\i\fs26\insrsid13982889 Domestic Meat Premises Charge Act 1993
+\par Dried Vine Fruits (Rate of Primary Industry (Customs) Charge) Validation Act 2001
+\par Dried Vine Fruits (Rate of Primary Industry (Excise) Levy) Validation Act 2001
+\par Egg Industry Service Provision Act 2002
+\par Egg Industry Service Provision (Transitional and Consequential Provisions) Act 2002
+\par Export Control Act 1982}{\fs26\insrsid13982889 
+\par }{\i\fs26\insrsid13982889 Export Inspection and Meat Charges Collection Act 1985
+\par Export Inspection (Establishment Registration Charges) Act 1985
+\par Export Inspection (Quantity Charge) Act 1985
+\par Export Inspection (Service Charge) Act 1985
+\par Farm Household Support Act 1992
+\par Fisheries Administration Act 1991
+\par Fisheries Agreements (Payments) Act}{\fs26\insrsid13982889  }{\i\fs26\insrsid13982889 1991
+\par Fisheries Legislation Amendment Act (No. 1) 1998
+\par Fisheries Legislation (Consequential Provisions) Act 1991
+\par Fisheries Levy Act 1984
+\par Fisheries Management Act 1991
+\par Fisheries (Validation of Plans of Management) Act 2004
+\par Fishing Levy Act 1991
+\par Foreign Fishing Boats Levy Act 1981
+\par Foreign Fishing Licences Levy Act 1991
+\par Forestry and Timber Bureau Act 1930
+\par Honey Legislation (Repeal and Amendment) Act 1992
+\par Horticulture Marketing and Research and Development Services Act 2000
+\par Horticulture Marketing and Research and Development Services (Repeals and Consequential Provisions) Act 2000
+\par Imported Food Control Act 1992
+\par Loan (Income Equalization Deposits) Act 1976
+\par Meat Export Charge Act 1984
+\par Meat Export Charge Collection Act 1984
+\par Meat Inspection Act 1983
+\par Meat Inspection Arrangements Act 1964
+\par Morgan-Whyalla Waterworks Agreement Act 1940
+\par Murray-Darling Basin Act 1993
+\par National Cattle Disease Eradication Reserve Act 1991
+\par National Cattle Disease Eradication Trust Account Act 1991
+\par National Residue Survey Administration Act 1992
+\par }{\fs26\insrsid13982889 National Residue Survey Levy Acts
+\par }{\i\fs26\insrsid13982889 National Residue Survey (Consequential Provisions) Act 1992
+\par }\pard\plain \s17\ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \i\fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\fs26\insrsid13982889 
+National Residue Survey Levies Regulations (Validation and Commencement of Amendments) Act 1999
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\i\fs26\insrsid13982889 Natural Resources Management (Financial Assistance) Act 1992}{\fs26\insrsid13982889 
+
+\par }{\i\fs26\insrsid13982889 New South Wales Flood Relief Act 1974
+\par New South Wales Grant (Leeton Co-operative Cannery Limited) Act 1971
+\par Northern Prawn Fishery Voluntary Adjustment Scheme Loan Guarantee Act 1985
+\par Pig Industry Act 2001
+\par Pig Industry (Transitional Provisions) Act 1986
+\par Plant Health Australia (Plant Industries) Funding Act 2002
+\par Primary Industries and Energy Research and Development Act 1989}{\fs26\insrsid13982889 , except to the extent that it is administered by the Minister for Industry, Tourism and Resources}{\i\fs26\insrsid13982889 
+\par }\pard\plain \s3\ql \fi-180\li180\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel2\adjustright\rin0\lin180\itap0 \i\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 Primary Industries Levies and Charges Collection Act 1991
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\i\fs26\insrsid13982889 Primary Industries Levies and Charges Collection (Consequential Provisions) Act 1991
+
+\par }\pard\plain \s3\ql \fi-180\li180\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel2\adjustright\rin0\lin180\itap0 \i\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 Primary Industries (Customs) Charges Act 1999
+\par Primary Industries (Excise) Levies Act 1999
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\i\fs26\insrsid13982889\charrsid3692503 Primary Industries (Excise) Levies }{\i\fs26\insrsid13982889 
+(GST Consequential Amendments) }{\i\fs26\insrsid13982889\charrsid3692503 Act }{\i\fs26\insrsid13982889 2000}{\i\fs26\insrsid13982889\charrsid3692503 
+\par }{\i\fs26\insrsid13982889 Primary Industry Councils Act 1991
+\par Quarantine Act 1908, }{\fs26\insrsid13982889 in relation to animal, plant and general quarantine}{\i\fs26\insrsid13982889 
+\par Quarantine (Validation of Fees) Act 1985, }{\fs26\insrsid13982889 in relation to animal, plant and general quarantine}{\i\fs26\insrsid13982889 
+\par Queensland Flood Relief Act 1974
+\par Queensland Grant (Proserpine Flood Mitigation) Act 1976
+\par Queensland Tobacco Leaf Marketing Board Guarantee Act 1953
+\par Regional Forest Agreements Act 2002
+\par Rural Adjustment Act 1992
+\par }{\fs26\insrsid13982889 Sewerage Agreements Acts
+\par Softwood Forestry Agreements Acts
+\par States and Northern Territory Grants (Rural Adjustment) Acts
+\par }{\i\fs26\insrsid13982889 States Grants (Beef Industry) Act 1975
+\par }{\fs26\insrsid13982889 States Grants (Rural Adjustment) Acts 
+\par States Grants (Rural Reconstruction) Acts
+\par }{\i\fs26\insrsid13982889 States Grants (War Service Land Settlement) Act 1952
+\par State Grants (Water Resources Measurement) Act 1970
+\par Statutory Fishing Rights Charge Act 1991
+\par }{\fs26\insrsid13982889 Tasmanian Native Forestry Agreement Acts
+\par }{\i\fs26\insrsid13982889 Torres Strait Fisheries Act 1984
+\par }\pard \ql \fi-720\li720\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin720\itap0 {\i\fs26\insrsid13982889 United Nations Food and Agriculture Organization Act 1944}{\fs26\insrsid13982889 
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 Western Australia Agreement (Ord River Irrigation) Acts}{\i\fs26\insrsid13982889 
+\par Western Australia (Northern Development) Agreement Act 1963
+\par Western Australia (South-West Region Water Supplies) Agreement Act 1965 
+\par Wheat Marketing Act 1989
+\par Wheat Marketing Amendment Act 1997
+\par Wheat Marketing Legislation Amendment Act 1998
+\par Wool International Act 1993
+\par Wool International Privatisation Act 1999
+\par Wool Legislation (Repeals and Consequential Provisions) Act 1993
+\par Wool Services Privatisation Act 2000}{\fs26\insrsid13982889 
+\par \page 
+\par }\pard\plain \s1\ql \li0\ri0\widctlpar\tx1304\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \b\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 {\*\bkmkstart AG}{\*\bkmkend AG}PART 2\tab THE ATTORNEY\_GENERAL'S DEPARTMENT
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\b\i\fs26\insrsid13982889 
+\par }\pard \qc \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 Matters dealt with by the Department}{\b\fs26\insrsid13982889 
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 
+\par Law and justice including - 
+\par }\pard \ql \li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 Administrative law
+\par Alternative dispute resolution
+\par Bankruptcy
+\par Censorship
+\par Constitutional law
+\par Copyright
+\par Courts and tribunals
+\par Human rights
+\par Indigenous law and justice programmes
+\par International law
+\par Law reform
+\par Legal assistance
+\par Legislative drafting
+\par Marriage and family law
+\par }\pard \ql \fi-181\li362\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin362\itap0 {\fs26\insrsid13982889 Native Title
+\par Privacy 
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 Legal services to the Commonwealth
+\par Criminal law and law enforcement
+\par Customs and border control other than quarantine and inspection, and immigration
+\par National security, protective security policy and co-ordination
+\par Protective services at Commonwealth establishments and diplomatic and consular premises in Australia
+\par Commonwealth emergency management
+\par Administrative support for Royal Commissions and certain other inquiries
+\par }\pard\plain \s5\ql \fi-180\li180\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel4\adjustright\rin0\lin180\itap0 \fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 Critical infrastructure protection co-ordination
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\b\i\fs26\insrsid13982889 
+\par }\pard \qc \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 Legislation administered by the Minister
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 
+\par A.C.T. Supreme Court (Transfer) Act 1992
+\par Acts Citation Act 1976
+\par Acts Interpretation Act 1901
+\par Administrative Appeals Tribunal Act 1975
+\par }{\fs26\insrsid13982889 Administrative Changes (Consequential Provisions) Acts
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Administrative Decisions (Judicial Review) Act 1977
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Admiralty Act 1988
+\par Age Discrimination Act 2004
+\par Amendments Incorporation Act 1905
+\par Australia Act 1986
+\par Australia (Request and Consent) Act 1985
+\par Australian Crime Commission Act 2002
+\par Australian Crime Commission Establishment Act 2002
+\par Australian Federal Police Act 1979
+\par Australian Law Reform Commission Act 1996
+\par Australian Security Intelligence Organisation Act 1979
+\par Bankruptcy Act 1966
+\par Bankruptcy (Estate Charges) Act 1997
+\par Bankruptcy (Registration Charges) Act 1997
+\par Circuit Layouts Act 1989
+\par Classification (Publications, Films and Computer Games) Act 1995
+\par Coastal Waters (Northern Territory Powers) Act 1980
+\par Coastal Waters (Northern Territory Title) Act 1980
+\par Coastal Waters (State Powers) Act 1980
+\par Coastal Waters (State Title) Act 1980
+\par Commerce (Trade Descriptions) Act 1905
+\par Common Informers (Parliamentary Disqualifications) Act 1975
+\par Commonwealth Motor Vehicles (Liability) Act 1959
+\par Commonwealth Places (Application of Laws) Act 1970
+\par Complaints (Australian Federal Police) Act 1981, }{\fs26\insrsid13982889 except to the extent administered by the Prime Minister
+\par }{\i\fs26\insrsid13982889 Copyright Act 1968
+\par Corporations Act 2001}{\fs26\insrsid13982889 , paragraph 1315(1)(c) and section 1316}{\i\fs26\insrsid13982889 
+\par }\pard\plain \s3\ql \fi-180\li180\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel2\adjustright\rin0\lin180\itap0 \i\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 Crimes Act 1914
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\i\fs26\insrsid13982889 Crimes at Sea Act 2000
+\par Crimes (Aviation) Act 1991
+\par Crimes (Biological Weapons) Act 1976
+\par Crimes (Currency) Act 1981
+\par Crimes (Foreign Incursions and Recruitment) Act 1978
+\par Crimes (Hostages) Act 1989
+\par Crimes (Internationally Protected Persons) Act 1976
+\par Crimes (Overseas) Act 1964
+\par Crimes (Ships and Fixed Platforms) Act 1992
+\par Crimes (Superannuation Benefits) Act 1989
+\par Crimes (Torture) Act 1988
+\par Crimes (Traffic in Narcotic Drugs and Psychotropic Substances) Act 1990
+\par Criminal Code Act 1995
+\par Criminology Research Act 1971
+\par }\pard \ql \li0\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin0\itap0 {\i\fs26\insrsid13982889 Customs Act 1901
+\par Customs Administration Act 1985
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Customs Depot Licensing Charges Act 1997
+\par Customs Securities (Penalties) Act 1981
+\par Customs Tariff Act 1995
+\par Customs Tariff (Anti-Dumping) Act 1975
+\par Customs Undertakings (Penalties) Act 1981
+\par Customs (Tariff Concession System Validations) Act 1999
+\par Death Penalty Abolition Act 1973
+\par Defence Force Discipline Appeals Act 1955}{\fs26\insrsid13982889 
+\par }{\i\fs26\insrsid13982889 Defence (Visiting Forces) Act 1963
+\par Defence Act 1903}{\fs26\insrsid13982889\charrsid12393096 , Part IIIAAA}{\fs26\insrsid13982889  insofar as it relates to the powers or functions of the Attorney-General}{\fs26\insrsid13982889\charrsid2169846  }{\fs26\insrsid13982889 
+as an authorising minister}{\fs26\insrsid13982889\charrsid12393096 
+\par }{\i\fs26\insrsid13982889 Director of Public Prosecutions Act 1983
+\par Disability Discrimination Act 1992
+\par Domicile Act 1982
+\par Electronic Transactions Act 1999
+\par Environment Protection (Northern Territory Supreme Court) Act 1978
+\par Evidence Act 1995
+\par Evidence and Procedure (New Zealand) Act 1994
+\par Evidence (Transitional Provisions and Consequential Amendments) Act 1995
+\par Extradition Act 1988
+\par Family Court of Western Australia (Orders of Registrars) Act 1997
+\par Family Law Act 1975, }{\fs26\insrsid13982889 except to the extent administered by the Minister for Family and Community Services
+\par }{\i\fs26\insrsid13982889 Federal Court of Australia Act 1976
+\par Federal Magistrates Act 1999
+\par Federal Proceedings (Costs) Act 1981
+\par Financial Transaction Reports Act 1988
+\par Foreign Evidence Act 1994
+\par Foreign Judgments Act 1991
+\par Foreign Proceedings (Excess of Jurisdiction) Act 1984
+\par Foreign States Immunities Act 1985
+\par Freedom of Information Act 1982
+\par Geneva Conventions Act 1957, }{\fs26\insrsid13982889 other than Part IV
+\par }{\i\fs26\insrsid13982889 Genocide Convention Act 1949
+\par High Court Justices (Long Leave Payments) Act 1979
+\par High Court of Australia Act 1979
+\par Human Rights and Equal Opportunity Commission Act 1986
+\par Human Rights and Equal Opportunity Commission (Transitional Provisions and Consequential Amendments) Act 1986
+\par Human Rights (Sexual Conduct) Act 1994
+\par Import Processing Charges Act 2001
+\par Import Processing Charges (Amendment and Repeal) Act 2002}{\i\fs26\cgrid0\insrsid13982889\charrsid10561673  
+\par }{\i\fs26\cgrid0\insrsid13982889 Intelligence Services Act 2001}{\fs26\cgrid0\insrsid13982889 , insofar as it relates to the Australian Security Intelligence Organisation}{\i\fs26\insrsid13982889 
+\par International Arbitration Act 1974
+\par International Criminal Court Act 2002
+\par International Transfer of Prisoners Act 1997
+\par International War Crimes Tribunals Act 1995
+\par Judges (Long Leave Payments) Act 1979
+\par Judges\rquote  Pensions Act 1968
+\par Judicial Appointment (Western Samoa) Act 1980
+\par Judiciary Act 1903
+\par Judiciary (Diplomatic Representation) Act 1977
+\par Jurisdiction of Courts (Cross-vesting) Act 1987
+\par Jury Exemption Act 1965
+\par Law Courts (Sydney) Act 1977
+\par Law Officers Act 1964
+\par Legislative Instruments Act 2003
+\par Maintenance Orders (Commonwealth Officers) Act 1966
+\par Marine Insurance Act 1909
+\par Marriage Act 1961, }{\fs26\insrsid13982889 except to the extent administered by the Minister for Family and Community Services}{\i\fs26\insrsid13982889 
+\par }\pard\plain \s3\ql \fi-180\li180\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel2\adjustright\rin0\lin180\itap0 \i\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 Mutual Assistance in Business Regulation Act 1992
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\i\fs26\insrsid13982889 Mutual Assistance in Criminal Matters Act 1987
+\par Narcotic Drugs Act 1967, }{\fs26\insrsid13982889 sections 12 and 22 and subsection 24(2), and so much of the remaining provisions of that Act (other t
+han sections 9, 10, 11, 13, 19 and 23 and subsection 24(1)) as relate to powers and functions under those sections}{\i\fs26\insrsid13982889 
+\par National Crime Authority (Status and Rights of Former Chairman) Act 1984
+\par }{\fs26\insrsid13982889 National Firearms Program Implementation Acts
+\par }{\i\fs26\insrsid13982889 National Handgun Buyback Act 2003
+\par National Security Information (Criminal Proceedings) Act 2004
+\par National Security Information (Criminal Proceedings) (Consequential Amendments) Act 2004
+\par Native Title Act 1993}{\fs26\insrsid13982889 , except to the extent administered by the Minister for }{\fs26\insrsid2439204 Families, Community Services}{\fs26\insrsid13982889  and Indigenous Affairs
+\par }{\i\fs26\insrsid13982889 Nauru (High Court Appeals) Act 1976  
+\par }{\fs26\insrsid13982889 Ordinances and Regulations (Notification) Acts
+\par }{\i\fs26\insrsid13982889 Parliamentary Counsel Act 1970
+\par Parliamentary Papers Act 1908
+\par Parliamentary Privileges Act 1987
+\par Passenger Movement Charge Act 1978
+\par Passenger Movement Charge Collection Act 1978
+\par Privacy Act 1988
+\par Privy Council (Appeals from the High Court) Act 1975
+\par Privy Council (Limitation of Appeals) Act 1968
+\par Proceeds of Crime Act 1987
+\par Proceeds of Crime Act 2002
+\par Proceeds of Crime (Consequential Amendments and Transitional Provisions) Act 2002
+\par Psychotropic Substances Act 1976}{\fs26\insrsid13982889 
+\par }{\i\fs26\insrsid13982889 Public Order (Protection of Persons and Property) Act 1971
+\par Racial Discrimination Act 1975
+\par Removal of Prisoners (Territories) Act 1923, }{\fs26\insrsid13982889 insofar as it relates to the release of prisoners and criminal lunatics removed from the Northern Territory of Australia
+\par }{\i\fs26\insrsid13982889 Royal Commission into the New South Wales Police Service (Access to Information) Act 1994
+\par Seas and Submerged Lands Act 1973
+\par Service and Execution of Process Act 1992
+\par Sex Discrimination Act 1984
+\par Special Prosecutors Act 1982
+\par Statute of Westminster Adoption Act 1942
+\par Statute Law Revision Act 2002
+\par Statute Stocktake Act 1999
+\par Statutory Declarations Act 1959
+\par Surveillance Devices Act 2004
+\par Telecommunications (Interception) Act 1979
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Transfer of Prisoners Act 1983
+\par Trusts (Hague Convention) Act 1991
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 War Crimes Act 1945
+\par Witness Protection Act 1994
+\par Workplace Relations Act 1996, }{\fs26\insrsid13982889 sections 324-328 inclusive of Schedule 1B in respect of powers under those sections; and Part XIV except for sections 413, 413A and 471
+\par 
+\par 
+\par }\pard\plain \s16\ql \fi-1304\li1304\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin1304\itap0 \b\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 \page PART 3  \tab 
+THE DEPARTMENT OF COMMUNICATIONS, INFORMATION TECHNOLOGY AND THE ARTS
+\par }\pard\plain \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\b\i\fs26\insrsid13982889 
+\par }\pard \qc \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\b\i\fs26\insrsid13982889 Matters dealt with by the Department}{\fs26\insrsid13982889 
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\fs26\insrsid13982889 
+\par Postal and telecommunications services
+\par Management of the electromagnetic spectrum
+\par Broadcasting services
+\par Management of government records
+\par Cultural affairs, including support for the arts
+\par National policy issues relating to the information economy
+\par Application of information and communications technology, including broadband and electronic commerce
+\par Information and communications industries development
+\par Sport and recreation}{\b\i\fs26\insrsid13982889 
+\par }\pard \qc \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\b\fs26\insrsid13982889 
+\par }\pard\plain \s4\qc \fi-181\li181\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel3\adjustright\rin0\lin181\itap0 \b\i\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 Legislation administered by the Minister
+\par }\pard\plain \qc \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\fs26\insrsid13982889 
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Archives Act 1983
+\par AUSSAT Repeal Act 1991
+\par Australia Council Act 1975
+\par Australian Broadcasting Corporation Act 1983
+\par Australian Broadcasting Corporation (Transitional Provisions and Consequential Amendments) Act 1983
+\par Australian Communications and Media Authority Act 2005 
+\par Australian Communications and Media Authority (Consequential and Transitional Provisions) Act 2005 
+\par Australian Film Commission Act 1975
+\par Australian Film, Television and Radio School Act 1973
+\par Australian National Maritime Museum Act 1990
+\par Australian Postal Corporation Act 1989
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Australian Sports Commission Act 1989
+\par Australian Sports Drug Agency Act 1990
+\par }\pard\plain \s2\ql \fi-181\li181\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel1\adjustright\rin0\lin181\itap0 \i\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 Broadcasting Services Act 1992
+\par }\pard\plain \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\i\fs26\insrsid13982889 Broadcasting Services (Transitional Provisions and Consequential Amendments) Act 1992
+
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Datacasting Charge (Imposition) Act 1998
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Film Licensed Investment Company Act 2005 
+\par Film Licensed Investment Company (Consequential Provisions) Act 2005
+\par Interactive Gambling Act 2001
+\par Interactive Gambling (Moratorium) Act 2000
+\par Melbourne 2006 Commonwealth Games (Indicia and Images) Protection Act 2005 
+\par National Gallery Act 1975
+\par National Library Act 1960
+\par National Museum of Australia Act 1980
+\par National Transmission Network Sale Act 1998
+\par NRS Levy Imposition Act 1998
+\par Parliamentary Proceedings Broadcasting Act 1946
+\par Postal and Telecommunications Commissions (Transitional Provisions) Act 1975
+\par Public Lending Right Act 1985
+\par Radiocommunications Act 1992
+\par Radiocommunications (Receiver Licence Tax) Act 1983
+\par Radiocommunications (Spectrum Licence Tax) Act 1997
+\par Radiocommunications Taxes Collection Act 1983
+\par Radiocommunications (Transitional Provisions and Consequential Amendments) Act 1992
+\par }\pard \ql \li0\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin0\itap0 {\i\fs26\insrsid13982889 Radiocommunications (Transmitter Licence Tax) Act 1983
+\par Radio Licence Fees Act 1964
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Spam Act 2003
+\par Special Broadcasting Service Act 1991
+\par Telecommunications Act 1997
+\par Telecommunications and Postal Services (Transitional Provisions and Consequential Amendments) Act\~1989
+\par Telecommunications (Carrier Licence Charges) Act 1997
+\par Telecommunications (Consumer Protection and Service Standards) Act 1999
+\par Telecommunications (Numbering Charges) Act 1997
+\par Telecommunications (Transitional Provisions and Consequential Amendments) Act 1991
+\par Telecommunications (Transitional Provisions and Consequential Amendments) Act 1997
+\par Telecommunications (Universal Service Levy) Act 1997
+\par Television Licence Fees Act 1964
+\par Telstra Corporation Act 1991}{\fs26\insrsid13982889 , excluding Division 2 of Part 9
+\par }{\i\fs26\insrsid13982889 Trade Practices Act 1974}{\fs26\insrsid13982889 , Parts XIB and XIC
+\par }\pard\plain \s3\ql \fi-180\li180\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel2\adjustright\rin0\lin180\itap0 \i\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 Year 2000 Information Disclosure Act 1999
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\fs26\insrsid13982889 
+\par }\pard\plain \s1\ql \li0\ri0\widctlpar\tx1304\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \b\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 {\*\bkmkstart DEFENCE}{\*\bkmkend DEFENCE}\page PART 4  \tab 
+THE DEPARTMENT OF DEFENCE
+\par }\pard\plain \ql \fi-180\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\b\i\fs26\insrsid13982889 
+\par }\pard \qc \fi-180\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\b\i\fs26\insrsid13982889 Matters dealt with by the Department}{\b\fs26\insrsid13982889 
+\par }\pard \ql \fi-180\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\fs26\insrsid13982889 
+\par Defence, including - 
+\par }\pard \ql \li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\fs26\insrsid13982889 international defence relations and defence co-operation
+\par defence scientific research and development
+\par defence procurement and purchasing, including offsets for defence purposes
+\par defence industry development and co-operation
+\par  }{\b\i\fs26\insrsid13982889 
+\par }\pard \qc \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 Legislation administered by the Minister}{\fs26\insrsid13982889 
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 
+\par Air Force Act 1923
+\par Approved Defence Projects Protection Act 1947
+\par Cockatoo and Schnapper Islands Act 1949
+\par Commonwealth and State Housing Agreement (Service Personnel) Act 1990
+\par Control of Naval Waters Act 1918
+\par Defence Act 1903,}{\fs26\insrsid13982889\charrsid12393096  }{\fs26\insrsid13982889 
+except to the extent administered by the Prime Minister and the Attorney-General and other than sections 58F to 58Q, 61, 61A, 61B, 61C, 118A and 118B and paragraph 124(1)(qba)}{\i\fs26\insrsid13982889 
+\par Defence Force Discipline Act 1982
+\par Defence Force (Home Loans Assistance) Act 1990
+\par Defence Force Retirement and Death Benefits Act 1973
+\par }{\fs26\insrsid13982889 Defence Force Retirement and Death Benefits (Pension Increases) Acts
+\par }\pard\plain \s3\ql \fi-180\li180\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel2\adjustright\rin0\lin180\itap0 \i\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 Defence Forces Retirement Benefits Act 1948
+\par }\pard\plain \s17\ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \i\fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\fs26\insrsid13982889 Defenc
+e Forces Retirement Benefits Fund (Distribution of Surplus to Pensioners) Act 1976
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\fs26\insrsid13982889 Defence Forces Retirement Benefits (Pension Increases) Acts}{\i\fs26\insrsid13982889 
+
+\par Defence Forces Special Retirement Benefits Act 1960
+\par Defence Housing Authority Act 1987
+\par Defence Reserve Service (Protection) Act 2001
+\par Defence (Parliamentary Candidates) Act 1969
+\par Defence (Special Undertakings) Act 1952
+\par }{\i\fs26\cgrid0\insrsid13982889 Explosives Act 1961}{\i\fs26\insrsid13982889 
+\par Geneva Conventions Act 1957, }{\fs26\insrsid13982889 Part IV
+\par }{\i\fs26\cgrid0\insrsid13982889 Intelligence Services Act 2001}{\fs26\cgrid0\insrsid13982889 , insofar as it relates to that part of the Department of Defence known as the Defence Signals Directorate
+\par }{\i\fs26\cgrid0\insrsid13982889 Military Rehabilitation and Compensation Act 2004}{\fs26\cgrid0\insrsid13982889\charrsid2641372 , }{\fs26\cgrid0\insrsid13982889 
+Chapter 3, in relation to rehabilitation of serving members of the Australian Defence Force; and Chapter 6, in relation to treatment for injuries and diseases of serving members of the Australian Defence Force}{\i\fs26\insrsid13982889 
+\par Military Superannuation and Benefits Act 1991
+\par Naval Defence Act 1910
+\par Royal Australian Air Force Veterans' Residences Act 1953
+\par Services Trust Funds Act 1947
+\par War Service Estates Act 1942
+\par Weapons of Mass Destruction (Prevention of Proliferation) Act 1995
+\par Williamstown Dockyard Employees Act 1987}{\fs26\insrsid13982889 
+\par }\pard \ql \fi-1304\li1304\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin1304\itap0 {\fs26\insrsid13982889 {\*\bkmkstart DEET}{\*\bkmkend DEET}
+\par }\pard\plain \s16\ql \fi-1304\li1304\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin1304\itap0 \b\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 PART 5\tab THE DEPARTMENT OF EDUCATION, SCIENCE AND TRAINING
+\par }\pard\plain \ql \fi-1304\li1304\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin1304\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\fs26\insrsid13982889 
+\par }\pard \qc \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 Matters dealt with by the Department}{\b\fs26\insrsid13982889 
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 
+\par Education policy and programmes including schools, vocational, higher education and Indigenous education, but excluding migrant adult education
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\fs26\insrsid13982889 Education and training transitions policy and programmes
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 Training, including New Apprenticeships and training services
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\fs26\insrsid13982889 Policy, coordination and support for education exports and services
+\par Income support policies and programmes for students and apprentices
+\par }\pard \ql \li0\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin0\itap0 {\fs26\insrsid13982889 Science policy, science awareness programmes and co-ordination
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 Promotion of collaborative research in science and technology
+\par Co-ordination of research policy
+\par Commercialisation and utilisation of public sector research relating to portfolio programmes and agencies
+\par Research grants and fellowships
+\par Radioactive waste management
+\par }\pard \qc \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 
+\par Legislation administered by the Minister
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 
+\par Anglo-Australian Telescope Agreement Act 1970
+\par Australian Institute of Aboriginal and Torres Strait Islander Studies Act 1989
+\par Australian Institute of Marine Science Act 1972
+\par Australian National Training Authority Act 1992
+\par Australian National University Act 1991
+\par Australian Nuclear Science and Technology Organisation Act 1987}{\fs26\insrsid13982889  }{\i\fs26\insrsid13982889 
+\par Australian Nuclear Science and Technology Organisation (Transitional Provisions) Act 1987
+\par Australian Research Council Act 2001 
+\par Australian Research Council (Consequential and Transitional Provisions) Act 2001 
+\par Education Research Act 1970
+\par }{\i\fs26\insrsid13982889\charrsid10900629 Education Services for Overseas Students Act 2000
+\par Education Services for Overseas Students (Assurance Fund Contributions) Act 2000
+\par Education Services for Overseas Students (Consequential and Transitional) Act 2000
+\par Education Services for Overseas Students (Registration Charges) Act 1997
+\par Higher Education Funding Act 1988
+\par }\pard\plain \s3\ql \fi-180\li180\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel2\adjustright\rin0\lin180\itap0 \i\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889\charrsid10900629 Higher Education Support Act 2003
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\i\fs26\insrsid13982889\charrsid10900629 Higher Education Support (Transitional Provisio
+ns and Consequential Amendments) Act 2003
+\par }\pard \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\i\fs26\insrsid13982889\charrsid10900629 Independent Schools (Loans Guarantee) Act 1969
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Indigenous Education (Targeted Assistance) Act 2000
+\par Mutual Recognition Act 1992, }{\fs26\insrsid13982889 Part 3}{\i\fs26\insrsid13982889 
+\par Non-government Schools (Loans Guarantee) Act 1977
+\par }\pard\plain \s3\ql \fi-180\li180\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel2\adjustright\rin0\lin180\itap0 \i\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 Science and Industry Endowment Act 1926
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\i\fs26\insrsid13982889 Science and Industry Research Act 1949
+\par }{\i\fs26\insrsid13982889\charrsid12789338 Social Security Act 1991}{\fs26\insrsid13982889\charrsid12789338 
+, insofar as it relates to Austudy and Youth Allowance for persons who are students and any other payment, allowance or supplement insofar as that payment, allowance or supplement relates to persons who }{\fs26\insrsid13982889\charrsid6252910 are\~
+students
+\par }{\i\fs26\insrsid13982889\charrsid6252910 Social Security (Administration) Act 1999}{\fs26\insrsid13982889\charrsid6252910 
+, insofar as it relates to Austudy and Youth Allowance for persons who are students and any other payment, allowance or supplement insofar as that payment, allowance or supplement relates to persons who are\~students
+\par }{\fs26\insrsid13982889 States Grants (Primary and Secondary Education Assistance) Acts 
+\par }{\i\fs26\insrsid13982889 Student Assistance Act 1973}{\fs26\insrsid13982889 
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Trans-Tasman Mutual Recognition Act 1997}{\fs26\insrsid13982889 , in relation to occupational provisions}{\i\fs26\insrsid13982889 
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Vocational Education and Training Funding Act 1992
+\par }\pard\plain \s17\ql \fi-1304\li1304\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin1304\itap0 \i\fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\fs26\insrsid13982889 {\*\bkmkstart DASET}{\*\bkmkend DASET}\page }{\b\i0\fs26\insrsid13982889 
+PART 6\tab THE DEPARTMENT OF EMPLOYMENT AND WORKPLACE RELATIONS 
+\par }\pard\plain \ql \li0\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin0\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\fs26\insrsid13982889 
+\par }\pard \qc \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 Matters dealt with by the Department
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 
+\par Employment policy, including employment services
+\par Job Network
+\par }\pard \ql \fi-142\li142\ri0\widctlpar\faauto\adjustright\rin0\lin142\itap0 {\fs26\insrsid13982889 Labour market and income support policies and programmes for people of working age
+\par }\pard \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\fs26\insrsid13982889 Workplace relations policy development, advocacy and implementation
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 Promotion of flexible workplace relations policies and practices
+\par Coordination of labour market research
+\par }\pard \ql \fi-142\li142\ri0\widctlpar\faauto\adjustright\rin0\lin142\itap0 {\fs26\insrsid13982889 Australian government employment workplace relations policy, including administration of the framework }{
+\fs26\lang1033\langfe3081\cgrid0\langnp1033\insrsid13982889 for agreement making and remuneration and conditions}{\fs26\insrsid13982889 
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 Occupational health and safety, rehabilitation and compensation
+\par Equal employment opportunity
+\par Work and family issues
+\par }{\fs26\insrsid13982889\charrsid14549035 Services to }{\fs26\insrsid13982889 help}{\fs26\insrsid13982889\charrsid14549035  }{\fs26\insrsid13982889 people }{\fs26\insrsid13982889\charrsid14549035 with disabilities obtain employment}{\fs26\insrsid13982889 ,
+}{\fs26\insrsid13982889\charrsid14549035  }{\fs26\insrsid13982889 other than supported employment}{\fs26\insrsid13982889\charrsid14549035 
+\par }{\b\fs26\insrsid13982889\charrsid14549035 
+\par }\pard \qc \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 Legislation administered by the Minister}{\fs26\insrsid13982889 
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 
+\par 
+\par Aboriginal and Torres Strait Islander Act 2005}{\fs26\insrsid13982889\charrsid2641372 , Part 4}{\i\fs26\insrsid13982889 
+\par Air Passenger Ticket Levy (Collection) Act 2001}{\fs26\insrsid13982889 , except to the extent administered by the Minister for Transport and Regional Services
+\par }{\i\fs26\insrsid13982889 Builders Labourers' Federation (Cancellation of Registration) Act 1986
+\par Builders Labourers' Federation (Cancellation of Registration - Consequential Provisions) Act 1986
+\par }\pard\plain \s3\ql \fi-180\li180\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel2\adjustright\rin0\lin180\itap0 \i\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 Building Industry Act 1985
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\i\fs26\insrsid13982889 Coal Mining Industry (Long Service Leave Funding) Act 1992
+\par Coal Mining Industry (Long Service Leave) Payroll Levy Collection Act 1992
+\par Coal Mining Industry (Long Service Leave) Payroll Levy Act 1992
+\par Construction Industry Reform and Development Act 1992
+\par Defence Act 1903, }{\fs26\insrsid13982889 sections 58F to 58Q, 61, 61A, 61B, 61C, 118A and 118B
+\par }{\i\fs26\insrsid13982889 Disability Services Act 1986}{\fs26\insrsid13982889\charrsid11821589 ,}{\fs26\insrsid13982889\charrsid12405350  }{\fs26\insrsid13982889 insofar as it relates to open employment and related services and Part III
+\par }{\i\fs26\insrsid13982889\charrsid4461305 Employment Services Act 1994
+\par }{\i\fs26\insrsid13982889 Equal Employment Opportunity (Commonwealth Authorities) Act 1987
+\par Equal Opportunity for Women in the Workplace Act 1999
+\par International Labour Organisation (Compliance with Conventions) Act 1992
+\par }\pard\plain \s5\ql \fi-180\li180\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel4\adjustright\rin0\lin180\itap0 \fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 International Labour Organisation Acts
+\par }\pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\i\fs26\insrsid13982889 Judicial and Statutory Officers (Remuneration and Allowances) Act 1984}{\fs26\insrsid13982889 
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Long Service Leave (Commonwealth Employees) Act 1976
+\par Maternity Leave (Commonwealth Employees) Act 1973
+\par National Occupational Health and Safety Commission Act 1985
+\par National Workplace Relations Consultative Council Act 2002
+\par Occupational Health and Safety (Commonwealth Employment) Act 1991
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Occupational Health and Safety (Maritime Industry) Act 1993
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Remuneration and Allowances Act 1990
+\par Remuneration and Allowances Alteration Act 1986
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Remuneration Tribunal Act 1973
+\par Safety, Rehabilitation and Compensation Act 1988}{\fs26\insrsid13982889\charrsid2641372 , except to the extent administered by the Minister for Veterans\rquote  Affairs}{\i\fs26\insrsid13982889 
+\par Seafarers Rehabilitation and Compensation Act 1992
+\par Seafarers Rehabilitation and Compensation Levy Act 1992
+\par Seafarers Rehabilitation and Compensation Levy Collection Act 1992
+\par Seafarers Rehabilitation and Compensation (Transitional Provisions and Consequential Amendments) Act 1992
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889\charrsid1704186 Social Security Act 1991}{\fs26\insrsid13982889\charrsid1704186 
+, insofar as it relates to Disability Support Pension, Mature Age Allowance, Newstart Allowance}{\fs26\insrsid13982889 , Sickness Allowance,}{\fs26\insrsid13982889\charrsid1704186  }{\fs26\insrsid13982889 Mobility Allowance, }{
+\fs26\insrsid13982889\charrsid1704186 Parenting Payment}{\fs26\insrsid13982889 , Widow Allowance and Partner Allowance}{\fs26\insrsid13982889\charrsid1704186 
+ and any other payment, allowance or supplement insofar as that payment, allowance or supplement relates to persons receiving\~Disability Support Pension, Mature Age Allowance, Newstart Allowance}{\fs26\insrsid13982889 , Sickness Allowance,}{
+\fs26\insrsid13982889\charrsid1704186  }{\fs26\insrsid13982889 Mobility Allowance, }{\fs26\insrsid13982889\charrsid1704186 Parenting Payment}{\fs26\insrsid13982889 , Widow Allowance or Partner Allowance; }{\fs26\insrsid13982889\charrsid1704186 
+Youth Allowance }{\fs26\insrsid13982889 and any other payment, allowance or supplement }{\fs26\insrsid13982889\charrsid1704186 insofar as those payments relate to persons }{\fs26\insrsid13982889 other than students}{
+\i\fs26\insrsid13982889\charrsid1704186 
+\par }{\i\fs26\insrsid13982889 Social Security (Administration) Act 1999}{\fs26\insrsid13982889\charrsid213355 , }{\fs26\insrsid13982889\charrsid1704186 insofar as it relates to Disability Support Pension, Mature Age Allowance, Newstart Allowance}{
+\fs26\insrsid13982889 , Sickness Allowance,}{\fs26\insrsid13982889\charrsid1704186  }{\fs26\insrsid13982889 Mobility Allowance, }{\fs26\insrsid13982889\charrsid1704186 Parenting Payment}{\fs26\insrsid13982889 , Widow Allowance and Partner Allowance}{
+\fs26\insrsid13982889\charrsid1704186  and any other payment, allowance or supplement insofar as that payment, allowance or supplement relates to persons receiving\~Disability Support Pension, Mature Age Allowance, Newstart Allowance}{
+\fs26\insrsid13982889 , Sickness Allowance,}{\fs26\insrsid13982889\charrsid1704186  }{\fs26\insrsid13982889 Mobility Allowance, }{\fs26\insrsid13982889\charrsid1704186 Parenting Payment}{\fs26\insrsid13982889 , Widow Allowance or Partner Allowance;}{
+\fs26\insrsid13982889\charrsid1704186  Youth Allowance }{\fs26\insrsid13982889 and any other payment, allowance or supplement }{\fs26\insrsid13982889\charrsid1704186 insofar as }{\fs26\insrsid13982889 those }{\fs26\insrsid13982889\charrsid1704186 payment}
+{\fs26\insrsid13982889 s}{\fs26\insrsid13982889\charrsid1704186  relate to persons }{\fs26\insrsid13982889 other than students}{\i\fs26\insrsid13982889 
+\par Stevedoring Industry Finance Committee Act 1977
+\par Stevedoring Industry Levy Act 1977
+\par Stevedoring Industry Levy Collection Act 1977 
+\par }{\i\fs26\insrsid13982889\charrsid14314603 Tradesmen's Rights Regulation Act 1946
+\par }{\fs26\insrsid13982889\charrsid14314603 United States Naval Communication Station (Civilian Employees) Acts
+\par }{\i\fs26\insrsid13982889\charrsid14314603 Workplace Relations Act 1996}{\fs26\insrsid13982889\charrsid14314603 , except to the extent administered by the Attorney\_General
+\par }\pard \ql \li0\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin0\itap0 {\i\fs26\insrsid13982889\charrsid14314603 Workplace Relations and Other Legislation Amendment Act 1996}{\fs26\insrsid13982889\charrsid14314603 
+\par }\pard\plain \s17\ql \fi-284\li284\ri0\widctlpar\faauto\adjustright\rin0\lin284\itap0 \i\fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\fs26\insrsid13982889\charrsid14314603 Workplace Relations Legisla
+tion Amendment (Registration and Accountability of Organisations) (Consequential Provisions) Act 2002
+\par }\pard\plain \s1\ql \fi-1304\li1304\ri0\widctlpar\tx1304\faauto\outlinelevel0\adjustright\rin0\lin1304\itap0 \b\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 \page PART 7  \tab THE DEPARTMENT OF THE ENVIRONMENT AND HERITAGE
+
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\b\i\fs26\insrsid13982889 
+\par }\pard \qc \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 Matters dealt with by the Department}{\b\fs26\insrsid13982889 
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 
+\par Environment protection and conservation of biodiversity
+\par Air quality
+\par National fuel quality standards
+\par Land contamination
+\par Meteorology
+\par Administration of the Australian Antarctic Territory, and the Territory of Heard Island and McDonald Islands
+\par Natural, built and movable cultural heritage
+\par Greenhouse policy coordination
+\par Environmental research 
+\par 
+\par 
+\par }\pard \qc \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 Legislation administered by the Minister
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 
+\par Aboriginal and Torres Strait Islander Heritage Protection Act 1984
+\par Antarctic Marine Living Resources Conservation Act 1981
+\par Antarctic Treaty Act 1960
+\par Antarctic Treaty (Environment Protection) Act 1980
+\par Australian Antarctic Territory Acceptance Act 1933
+\par Australian Antarctic Territory Act 1954
+\par Australian Heritage Council Act 2003 
+\par Captains Flat (Abatement of Pollution) Agreement Act 1975
+\par Environment Protection and Biodiversity Conservation Act 1999
+\par Environment Protection (Alligator Rivers Region) Act 1978
+\par Environment Protection (Sea Dumping) Act 1981
+\par Fuel Quality Standards Act 2000
+\par Great Barrier Reef Marine Park Act 1975
+\par Great Barrier Reef Marine Park (Environmental Management Charge - Excise) Act 1993
+\par Great Barrier Reef Marine Park (Environmental Management Charge - General) Act 1993
+\par Hazardous Waste (Regulation of Exports and Imports) Act 1989
+\par Heard Island and McDonald Islands Act 1953
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Hindmarsh Island Bridge Act 1997
+\par Historic Shipwrecks Act 1976
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Koongarra Project Area Act 1981
+\par Lake Eyre Basin Intergovernmental Agreement Act 2001 
+\par Meteorology Act 1955
+\par National Environment Protection Council Act 1994
+\par National Environment Protection Measures (Implementation) Act 1998
+\par Natural Heritage Trust of Australia Act 1997
+\par Ozone Protection and Synthetic Greenhouse Gas Management Act 1989
+\par Ozone Protection (Licence Fees - Imports) Act 1995
+\par Ozone Protection (Licence Fees - Manufacture) Act 1995
+\par Product Stewardship (Oil) Act 2000
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Protection of Movable Cultural Heritage Act 1986
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Removal of Prisoners (Territories) Act 1923, }{\fs26\insrsid13982889 
+insofar as it relates to the Territory of Heard Island and McDonald Islands and the Australian Antarctic Territory
+\par }{\i\fs26\insrsid13982889 Renewable Energy (Electricity) Act 2000
+\par Renewable Energy (Electricity) (Charge) Act 2000
+\par Sea Installations Act 1987
+\par Sea Installations Levy Act 1987
+\par Sydney Harbour Federation Trust Act 2001
+\par Water Efficiency Labelling and Standards Act 2005 
+\par Wet Tropics of Queensland World Heritage Area Conservation Act 1994
+\par 
+\par 
+\par }\pard\plain \s1\ql \fi-1304\li1304\ri-567\widctlpar\tx1304\faauto\outlinelevel0\adjustright\rin-567\lin1304\itap0 \b\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 \page PART 8  \tab THE DEPARTMENT OF FAMIL}{\insrsid2439204 
+IES, }{\insrsid13982889 COMMUNITY SERVICES }{\insrsid2439204 AND INDIGENOUS AFFAIRS}{\insrsid13982889 
+\par }\pard\plain \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\b\i\fs26\insrsid13982889 
+\par }\pard \qc \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\b\i\fs26\insrsid13982889 Matters dealt with by the Department}{\fs26\insrsid13982889 
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\fs26\insrsid13982889 
+\par Income security policies and programmes for families with children, carers, the aged and people in hardship 
+\par Services for families with children, people with disabilities and carers  
+\par Community support services, excluding the Home and Community Care programme
+\par Family relationship services
+\par Welfare housing and rent assistance
+\par Youth affairs, excluding income support policies and programmes 
+\par Women}{\fs26\insrsid2439204 \rquote }{\fs26\insrsid13982889 s policies and programmes
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\tx1304\faauto\pnrauth1\pnrdate1721910211\pnrnot1\adjustright\rin0\lin181\itap0 {\fs26\insrsid2439204 Indigenous affairs and reconciliation
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\b\i\fs26\insrsid13982889 
+\par }\pard \qc \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\b\i\fs26\insrsid13982889 Legislation administered by the Minister
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\fs26\insrsid13982889\charrsid1314306 
+\par }{\i\fs26\insrsid13982889 A New Tax System (Family Assistance) Act 1999
+\par A New Tax System (Family Assistance) (Administration) Act 1999
+\par A New Tax System (Family Assistance and Related Measures) Act 2000
+\par A New Tax System (Bonuses for Older Australians) Act 1999}{\fs26\insrsid13982889\charrsid12020896 , Parts\~1 and\~5 insofar as they relate to Family and Community Services customers and Part\~2
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1418\faauto\adjustright\rin0\lin181\itap0\pararsid2439204 {\i\fs26\insrsid2439204 Aboriginal Affairs (Arrangements with the States) Act 1973}{\insrsid2439204 
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0\pararsid2439204 {\i\fs26\insrsid2439204 Aboriginal and Torres Strait Islander Act 2005}{\fs26\insrsid2439204\charrsid11214161 , except to the extent administered by 
+the Minister for Employment and Workplace Relations and the Minister for Finance and Administration}{\i\fs26\insrsid2439204 
+\par Aboriginal and Torres Strait Islanders (Queensland Discriminatory Laws) Act 1975
+\par Aboriginal and Torres Strait Islanders (Queensland Reserves and Communities Self\_management) Act 1978
+\par Aboriginal Councils and Associations Act 1976
+\par Aboriginal Land Grant (Jervis Bay Territory) Act 1986
+\par Aboriginal Land (Lake Condah and Framlingham Forest) Act 1987
+\par Aboriginal Land Rights (Northern Territory) Act 1976
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Aboriginal and Torres Strait Islander Act 2005}{\fs26\insrsid13982889\charrsid2833641 , section 200}{\i\fs26\insrsid13982889 
+\par Child Care Act 1972
+\par }\pard\plain \s2\ql \fi-181\li181\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel1\adjustright\rin0\lin181\itap0 \i\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 Child Support (Assessment) Act 1989}{
+\i0\insrsid13982889\charrsid467384 , except to the extent administered by the Minister for Human Services 
+\par }{\insrsid13982889 Child Support (Registration and Collection) Act 1988}{\i0\insrsid13982889\charrsid467384 , except to the extent administered by the Minister for Human Services}{\insrsid13982889\charrsid467384  }{\i0\insrsid13982889\charrsid467384 
+
+\par }\pard\plain \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\fs26\insrsid13982889 Commonwealth and State Housing Agreements Acts
+\par }{\i\fs26\insrsid13982889 Data-matching Program (Assistance and Tax) Act 1990
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Disability Services Act 1986}{\fs26\insrsid13982889 ,}{\fs26\insrsid13982889\charrsid13835827  }{\fs26\insrsid13982889 
+except to the extent administered by the Minister for Employment and Workplace Relations}{\fs26\insrsid13982889\charrsid14549035 
+\par }{\i\fs26\insrsid13982889 Family Assistance Legislation Amendment (More Help for Families \endash  One-off Payments) Act 2004
+\par Family Law Act 1975, }{\fs26\insrsid13982889 Part XIVA}{\i\fs26\insrsid13982889 
+\par Home Deposit Assistance Act 1982
+\par }{\fs26\insrsid13982889 Home Savings Grants Acts
+\par }{\i\fs26\insrsid13982889 Homeless Persons Assistance Act 1974}{\fs26\insrsid13982889 
+\par Housing Agreements Acts
+\par Housing Assistance Acts}{\i\fs26\insrsid13982889 
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Marriage Act 1961,}{\fs26\insrsid13982889  Part IA
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0\pararsid2439204 {\i\fs26\insrsid2439204 Native Title Act 1993,}{\fs26\insrsid2439204  Division 6 of Part 2 and Part\~11}{\i\fs26\insrsid2439204 
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Social Security Act 1991}{\fs26\insrsid13982889 
+, except to the extent administered by the Minister for Employment and Workplace Relations and the Minister for Education, Science and Training }{\i\fs26\insrsid13982889 
+\par Social Security (Administration) Act 1999}{\fs26\insrsid13982889 , except to the extent administered by the Minister for Employment and Workplace Relations and the Minister for Education, Science and Training}{\fs26\insrsid13982889\charrsid14549035 
+
+\par }{\i\fs26\insrsid13982889 Social Security (International Agreements) Act 1999
+\par Social Security (Rewrite) Transition Act 1991
+\par Social Welfare Commission (Repeal) Act 1976
+\par States Grants (Housing) Act 1971
+\par }\pard\plain \s17\ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \i\fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\i0\fs26\insrsid13982889 Supported Accommodation Assistance Acts
+\par }\pard\plain \s16\ql \fi-1304\li1304\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin1304\itap0 \b\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 \page PART 9\tab THE DEPARTMENT OF FINANCE AND ADMINISTRATION
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\i\fs26\insrsid13982889 
+\par }\pard \qc \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 {\*\bkmkstart DOF}{\*\bkmkend DOF}Matters dealt with by the Department}{\fs26\insrsid13982889 
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\fs26\insrsid13982889 Budget policy advice and process, and review of governmental programmes
+\par Government financial accountability, governance and financial management frameworks, including procurement policy and services
+\par Shareholder advice on Government Business Enterprises and commercial entities treated as GBEs 
+\par General policy guidelines for Commonwealth statutory authorities
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\faauto\adjustright\rin0\lin181\itap0 {\fs26\insrsid13982889 Superannuation related to former and current members of parliament and Australian Government employees
+\par Asset sales
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\fs26\insrsid13982889 Strategic property management in Australia, including construction, acquisition, ownership and disposal of real property
+\par Electoral matters
+\par Administration of Parliamentarians\rquote  entitlements
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 Administration of the Australian Government\rquote s self-managed general insurance fund (Comcover)
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\fs26\insrsid13982889 Government on-line delivery and information technology and communications management
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 Evaluation and audit of Indigenous programmes and operations
+\par 
+\par }\pard \qc \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 Legislation administered by the Minister}{\fs26\insrsid13982889 
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 
+\par }{\i\fs26\insrsid13982889 Aboriginal and Torres Strait Islander Act 2005}{\fs26\insrsid13982889 , Part 4B}{\i\fs26\insrsid13982889 
+\par Aerospace Technologies of Australia Limited Sale Act 1994
+\par AIDC Sale Act 1997
+\par Airports (Transitional) Act 1996
+\par }{\i\fs26\insrsid13982889\charrsid15033507 Albury-Wodonga Development Act 1973}{\fs26\insrsid13982889  }{\i\fs26\insrsid13982889\charrsid15033507 
+\par }{\fs26\insrsid13982889 Annual Appropriation Acts
+\par }{\i\fs26\insrsid13982889\charrsid8134983 Appropriation (Supplementary Measures) Act (No. 1) 1999
+\par Appropriation (Supplementary Measures) Act (No.}{\i\fs26\insrsid13982889  }{\i\fs26\insrsid13982889\charrsid8134983 2 ) 1999 
+\par }{\i\fs26\insrsid13982889 Audit (Transitional and Miscellaneous) Amendment Act 1997
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Australian Capital Territory (Planning and Land}{\fs26\insrsid13982889  }{\i\fs26\insrsid13982889 Management) Act 1988, }{\fs26\insrsid13982889 
+section\~27 insofar as it relates to the declaration of land in the Australian Capital Territory to be National Land where the land is required for Commonwealth purposes other than for the special purposes of Canberra as the National Capital
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Australian Industry Development Corporation Act 1970}{\fs26\insrsid13982889   }{\i\fs26\insrsid13982889 
+\par CFM Sale Act 1996
+\par Commonwealth Authorities and Companies Act 1997
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Commonwealth Electoral Act 1918
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Commonwealth Electoral Legislation (Provision of Information) Act 2000
+\par Commonwealth Funds Management Limited Act 1990
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Commonwealth Grants Commission Act 1973
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Commonwealth Vehicles (Registration and Exemption from Taxation) Act 1997
+\par CSL Sale Act 1993
+\par Financial Management and Accountability Act 1997
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Lands Acquisition Act 1989}{\fs26\insrsid13982889 
+\par }{\i\fs26\insrsid13982889 Lands Acquisition (Defence) Act 1968
+\par Lands Acquisition (Northern Territory Pastoral Leases) Act 1981
+\par Lands Acquisition (Repeal and Consequential Provisions) Act 1989
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889\charrsid8134983 Loan Act 1977}{\fs26\insrsid13982889 , except insofar as it gives authority to borrow}{\i\fs26\insrsid13982889 
+\par }{\fs26\insrsid13982889 Loan (War Service Land Settlement) Acts
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Members of Parliament (Life Gold Pass) Act 2002
+\par Members of Parliament (Staff) Act 1984
+\par Ministers of State Act 1952
+\par Northern Territory (Commonwealth Lands) Act 1980
+\par Northern Territory (Self-Government) Act 1978, }{\fs26\insrsid13982889 sections 69 and 70
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Papua New Guinea (Staffing Assistance) Act 1973, }{\fs26\insrsid13982889 insofar as it relates to superannuation and retirement benefits}{
+\i\fs26\insrsid13982889 
+\par Papua New Guinea (Staffing Assistance) Termination Act 1976
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Parliamentary Allowances Act 1952
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Parliamentary Contributory Superannuation Act 1948
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Parliamentary Entitlements Act 1990
+\par Parliamentary Precincts Act 1988
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889\charrsid15033507 Parliamentary Superannuation Act 2004 
+\par }{\fs26\insrsid13982889 Parliamentary Retiring Allowances (Increases) Acts
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Public Accounts and Audit Committee Act 1951
+\par Public Works Committee Act 1969
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Qantas Sale Act 1992,}{\fs26\insrsid13982889 
+ except to the extent administered by the Treasurer or the Minister for Transport and Regional Services}{\i\fs26\insrsid13982889 
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Referendum (Machinery Provisions) Act 1984
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Representation Act 1983}{\fs26\insrsid13982889 
+\par }{\i\fs26\insrsid13982889 Salaries Adjustment Act 1956 }{\i\fs26\insrsid13982889\charrsid8134983 
+\par }{\fs26\insrsid13982889 Superannuation Acts}{\i\fs26\insrsid13982889 
+\par Superannuation Benefits (Supervisory Mechanisms) Act 1990
+\par Superannuation (Distribution of Surplus) Act 1974
+\par }{\fs26\insrsid13982889 Superannuation (Pension Increases) Acts
+\par }{\i\fs26\insrsid13982889 Superannuation (Productivity Benefit) Act 1988}{\fs26\insrsid13982889 
+\par Supply Acts
+\par Surplus Revenue Acts}{\i\fs26\insrsid13982889 
+\par Territory Authorities (Financial Provisions) Act 1978
+\par Transferred Officers' Allowances Act 1948
+\par War Gratuity Act 1945
+\par Western Australia (South-West Region Water Supplies) Agreement Act 1965}{\fs26\insrsid13982889 
+\par }\pard \ql \li0\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin0\itap0 {\b\fs26\insrsid13982889 {\*\bkmkstart DFAT}{\*\bkmkend DFAT}\page PART 10  \tab THE DEPARTMENT OF FOREIGN AFFAIRS AND TRADE
+\par }\pard \qc \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 
+\par Matters dealt with by the Department
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 
+\par External Affairs, including -
+\par }\pard \ql \fi-387\li567\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin567\itap0 {\fs26\insrsid13982889 relations and communications with overseas governments and United Nations agencies
+\par }\pard \ql \li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 treaties, including trade agreements
+\par bilateral, regional and multilateral trade policy
+\par international trade and commodity negotiations
+\par market development, including market access
+\par trade promotion
+\par international development co-operation
+\par diplomatic and consular missions
+\par international security issues, including disarmament, arms control and nuclear non-proliferation
+\par public diplomacy, including information and cultural programmes
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 International expositions
+\par }\pard \ql \li0\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin0\itap0 {\fs26\insrsid13982889 Provision to Australian citizens of secure travel identification
+\par Provision of consular services to Australian citizens abroad
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\fs26\insrsid13982889 Overseas property management, including acquisition, ownership and disposal of real property
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 
+\par }\pard \qc \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 Legislation administered by the Minister}{\fs26\insrsid13982889 
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 
+\par }{\i\fs26\insrsid13982889 Anti-Personnel Mines Convention Act 1998}{\fs26\insrsid13982889  
+\par Asian Development Fund Acts}{\i\fs26\insrsid13982889 
+\par Australia-Japan Foundation Act 1976
+\par Australian Centre for International Agricultural Research Act 1982
+\par Australian Development Assistance Agency (Repeal) Act 1977
+\par Australian Passports Act 2005 
+\par Australian Passports (Application Fees) Act 2005 
+\par Australian Trade Commission Act 1985
+\par Australian Trade Commission (Transitional Provisions and Consequential Amendments) Act 1985
+\par Charter of the United Nations Act 1945
+\par Chemical Weapons (Prohibition) Act 1994
+\par Comprehensive Nuclear Test-Ban Treaty Act 1998
+\par Consular Fees Act 1955
+\par Consular Privileges and Immunities Act 1972
+\par Diplomatic and Consular Missions Act 1978
+\par Diplomatic Privileges and Immunities Act 1967
+\par Export Expansion Grants Act 1978
+\par Export Finance and Insurance Corporation Act 1991
+\par Export Finance and Insurance Corporation (Transitional Provisions and Consequential Amendments) Act 1991
+\par Export Market Development Grants Act 1997}{\fs26\insrsid13982889   }{\i\fs26\insrsid13982889 
+\par Export Market Development Grants (Repeal and Consequential Provisions) Act 1997
+\par Foreign Passports (Law Enforcement and Security) Act 2005 
+\par Indus Basin Development Fund Agreement Act 1960
+\par Indus Basin Development Fund Supplemental Agreement Act 1965
+\par Intelligence Services Act 2001}{\fs26\insrsid13982889 , except to the extent administered by the Attorney-General or the Minister for Defence}{\i\fs26\insrsid13982889 
+\par }{\fs26\insrsid13982889 International Development Association Acts
+\par International Development Association (Further Payment) Acts
+\par International Development Association (Special Contribution) Acts
+\par International Fund for Agricultural Development Acts}{\i\fs26\insrsid13982889 
+\par International Organizations (Privileges and Immunities) Act 1963
+\par Nauru Independence Act 1967
+\par Nuclear Non-Proliferation (Safeguards) Act 1987
+\par Nuclear Safeguards (Producers of Uranium Ore Concentrates) Charge Act 1993
+\par Overseas Missions (Privileges and Immunities) Act 1995
+\par Papua New Guinea (Application of Laws) Act 1973
+\par Papua New Guinea Independence Act 1975
+\par Papua New Guinea (Staffing Assistance) Act 1973, }{\fs26\insrsid13982889 except to the extent administered by the Minister for Finance and Administration
+\par }{\i\fs26\insrsid13982889 Registration of Deaths Abroad Act 1984
+\par Security Treaty (Australia, New Zealand and the United States of America) Act 1952
+\par South Pacific Nuclear Free Zone Treaty Act 1986
+\par Trade Representatives Act 1933
+\par Treaty of Peace (Germany) Act 1919
+\par United Nations Educational, Scientific and Cultural Organization Act 1947
+\par }{\fs26\insrsid13982889 United States Naval Communications Station Agreement Acts
+\par }{\i\fs26\insrsid13982889\charrsid8134983 US Free Trade Agreement Implementation Act }{\i\fs26\insrsid13982889 2004}{\i\fs26\insrsid13982889\charrsid8134983  
+\par }{\fs26\insrsid13982889 
+\par 
+\par }\pard\plain \s18\ql \fi-1304\li1304\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin1304\itap0 \b\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 {\*\bkmkstart HHCS}{\*\bkmkstart DTC}{\*\bkmkend HHCS}{\*\bkmkend DTC}\page 
+PART 11  \tab THE DEPARTMENT OF HEALTH AND AGEING 
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\b\i\fs26\insrsid13982889 
+\par }\pard \qc \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 Matters dealt with by the Department
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 
+\par Services for the aged, including carers
+\par Public health and medical research
+\par Health promotion and disease prevention
+\par Primary health care of Aboriginal and Torres Strait Islander people
+\par Pharmaceutical benefits
+\par Health benefits schemes
+\par Specific health services, including human quarantine
+\par National drug abuse strategy
+\par Regulation of therapeutic goods
+\par Notification and assessment of industrial chemicals
+\par Gene technology regulation
+\par Medical indemnity insurance issues
+\par 
+\par }\pard \qc \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 Legislation administered by the Minister}{\fs26\insrsid13982889 
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 
+\par Aged or Disabled Persons Care Act 1954}{\fs26\insrsid13982889 
+\par }{\i\fs26\insrsid13982889 Aged Care Act 1997
+\par Aged Care (Consequential Provisions) Act 1997
+\par Alcohol Education and Rehabilitation Account Act 2001 
+\par Australian Hearing Services Act 1991}{\fs26\insrsid13982889\charrsid665495 ,}{\fs26\insrsid13982889  subsections 8(4) to 8(8) inclusive
+\par }{\i\fs26\insrsid13982889 Australian Institute of Health and Welfare Act 1987
+\par Australian Nuclear Science and Technology Organisation Act 1987}{\fs26\insrsid13982889 , Part VIIA
+\par }{\i\fs26\insrsid13982889 Australian Radiation Protection and Nuclear Safety Act 1998
+\par Australian Radiation Protection and Nuclear Safety (Licence Charges) Act 1998
+\par Commonwealth Serum Laboratories Act 1961
+\par }{\i\fs26\insrsid13982889\charrsid13439169 Delivered Meals Subsidy Act 1970}{\fs26\insrsid13982889\charrsid13439169 
+\par }{\i\fs26\insrsid13982889 Epidemiological Studies (Confidentiality) Act 1981
+\par Food Standards Australia New Zealand Act 1991
+\par Gene Technology Act 2000
+\par Gene Technology (Licence Charges) Act 2000
+\par Health and Other Services (Compensation) Act 1995}{\fs26\insrsid13982889 
+\par }{\i\fs26\insrsid13982889 Health and Other Services (Compensation) Care Charges Act 1995
+\par Health Care (Appropriation) Act 1998
+\par Health Insurance Act 1973
+\par Health Insurance Commission (Reform and Separation of Functions) Act 1997
+\par Health Insurance (Pathology) (Fees) Act 1991
+\par Hearing Services Administration Act 1997
+\par Hearing Services and AGHS Reform Act 1997}{\fs26\insrsid13982889  }{\i\fs26\insrsid13982889 
+\par Home and Community Care Act 1985}{\fs26\insrsid13982889 
+\par }{\i\fs26\insrsid13982889 Home Nursing Subsidy Act 1956
+\par Industrial Chemicals (Notification and Assessment) Act 1989
+\par Industrial Chemicals (Registration Charge - Customs) Act 1997
+\par Industrial Chemicals (Registration Charge - Excise) Act 1997
+\par Industrial Chemicals (Registration Charge - General) Act 1997}{\fs26\insrsid13982889 
+\par }{\i\fs26\insrsid13982889 Medical Indemnity Act 2002
+\par Medical Indemnity (Prudential Supervision and Product Standards) Act 2003}{\fs26\insrsid13982889\charrsid9718061 , Part}{\fs26\insrsid13982889 \~}{\fs26\insrsid13982889\charrsid9718061 3, Division 2A}{\i\fs26\insrsid13982889  
+\par Medical Indemnity (Run-off Cover Support Payment) Act 2004
+\par Medical Indemnity (UMP Support Payment) Act 2002
+\par Medical Indemnity Agreement (Financial Assistance \endash  Binding Commonwealth Obligations) Act 2002
+\par Narcotic Drugs Act 1967, }{\fs26\insrsid13982889 sections 9, 10, 11, 13, 19 and 23 and subsection 24(1), and so much of the remaining provisions of the Act (other than sections 12 and 22 and subsection 24(2)) as
+ relates to powers and functions under those sections}{\i\fs26\insrsid13982889 
+\par National Blood Authority Act 2003
+\par National Health Act 1953
+\par National Health and Medical Research Council Act 1992
+\par Nursing Home Charge (Imposition) Act 1994
+\par Nursing Homes Assistance Act 1974
+\par Private Health Insurance Complaints Levy Act 1995
+\par Private Health Insurance Incentives Act 1998
+\par Prohibition of Human Cloning Act 2002
+\par Research Involving Human Embryos Act 2002
+\par Quarantine Act 1908, }{\fs26\insrsid13982889 in relation to human quarantine
+\par }{\i\fs26\insrsid13982889 Quarantine (Validation of Fees) Act 1985, }{\fs26\insrsid13982889 in relation to human quarantine}{\i\fs26\insrsid13982889 
+\par States Grants (Home Care) Act 1969
+\par States Grants (Nurse Education Transfer Assistance) Act 1985
+\par States Grants (Paramedical Services) Act 1969
+\par Therapeutic Goods Act 1989
+\par Therapeutic Goods (Charges) Act 1989
+\par Tobacco Advertising Prohibition Act 1992
+\par }\pard\plain \s3\ql \fi-180\li180\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel2\adjustright\rin0\lin180\itap0 \i\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 World Health Organization Act 1947
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\fs26\insrsid13982889 
+\par }\pard\plain \s17\ql \fi-1304\li1304\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin1304\itap0 \i\fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\b\fs26\insrsid13982889 {\*\bkmkstart DILGEA}{\*\bkmkend DILGEA}\page }{\b\i0\fs26\insrsid13982889 
+PART 12\tab \tab THE DEPARTMENT OF HUMAN SERVICES 
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\b\fs26\insrsid13982889 \tab \tab   (Part of the Finance and Administration Portfolio)
+\par }{\fs26\insrsid13982889 
+\par }\pard \qc \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\b\i\fs26\insrsid13982889 Matters dealt with by the Department}{\fs26\insrsid13982889 
+\par }\pard\plain \s17\ql \li0\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin0\itap0 \i\fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\b\i0\fs26\insrsid13982889 
+\par }{\i0\fs26\insrsid13982889\charrsid14549035 Development, delivery and co-ordination of government services
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\fs26\insrsid13982889\charrsid14549035 Monitoring and management of}{\fs26\insrsid13982889 
+ service delivery and }{\fs26\insrsid13982889\charrsid14549035 purchaser/provider relationships involving Centrelink, the Health Insurance Commission, the Child Support Agency, Australian Hearing, Health Services Australia and CRS}{\fs26\insrsid13982889 
+\~}{\fs26\insrsid13982889\charrsid14549035 Australia
+\par }\pard\plain \s17\ql \li0\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin0\itap0 \i\fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\i0\fs26\insrsid13982889\charrsid14549035 
+\par }\pard\plain \qc \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\b\i\fs26\insrsid13982889 Legislation administered by the Minister
+\par }\pard\plain \s17\ql \li0\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin0\itap0 \i\fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\b\i0\fs26\insrsid13982889 
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\i\fs26\insrsid13982889 Australian Hearing Services Act 1991}{\fs26\insrsid13982889 
+, except to the extent administered by the Minister for Health and Ageing}{\i\fs26\insrsid13982889 
+\par }\pard\plain \s2\ql \fi-181\li181\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel1\adjustright\rin0\lin181\itap0 \i\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 Child Support (Assessment) Act 1989}{
+\i0\insrsid13982889\charrsid467384 , }{\i0\insrsid13982889 insofar as it relates to the exercise of the powers and functions conferred on the Registrar under the Act}{\i0\insrsid13982889\charrsid467384 
+\par }{\insrsid13982889 Child Support (Registration and Collection) Act 1988}{\i0\insrsid13982889\charrsid467384 , }{\i0\insrsid13982889 
+insofar as it relates to the appointment of the Registrar and the exercise of the powers and functions conferred on the Registrar under the Act}{\insrsid13982889\charrsid467384  }{\i0\insrsid13982889\charrsid467384 
+\par }\pard\plain \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\i\fs26\insrsid13982889 Commonwealth Services Delivery Agency Act 1997
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Health Insurance Commission Act 1973
+\par }\pard \ql \fi-1304\li1304\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin1304\itap0 {\b\fs26\insrsid13982889\charrsid8027230 \page }{\b\fs26\insrsid13982889 PART 13  \tab THE DEPARTMENT OF IMMIGRATION AND MULTICULTURAL AFFAIRS
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 
+\par }\pard \qc \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 Matters dealt with by the Department
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 
+\par Entry, stay and departure arrangements for non-citizens 
+\par Border immigration control
+\par Arrangements for the settlement of migrants and humanitarian entrants, other than migrant child education
+\par Citizenship
+\par Ethnic affairs
+\par Multicultural affairs
+\par }{\fs26\insrsid13982889\charrsid2833641 
+\par }\pard \qc \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 Legislation administered by the Minister}{\fs26\insrsid13982889 
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 
+\par Aliens Act Repeal Act 1984
+\par Australian Citizenship Act 1948
+\par Immigration (Education) Act 1971
+\par Immigration (Education) Charge Act 1992
+\par Immigration (Guardianship of Children) Act 1946
+\par Migration Act 1958
+\par Migration Agents Registration Application Charge Act 1997
+\par Migration (Health Services) Charge Act 1991
+\par Migration (Visa Application) Charge Act 1997
+\par }{\fs26\insrsid13982889 {\*\bkmkstart DIR}{\*\bkmkend DIR}
+\par }\pard \ql \fi-1304\li1304\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin1304\itap0 {\b\fs26\insrsid13982889 {\*\bkmkstart DITAC}{\*\bkmkend DITAC}\page PART 14 \tab THE DEPARTMENT OF INDUSTRY, TOURISM AND RESOURCES
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 
+\par }\pard \qc \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 Matters dealt with by the Department}{\fs26\insrsid13982889 
+\par }\pard \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\fs26\insrsid13982889 
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 Manufacturing and commerce including industry and market development
+\par }\pard\plain \s22\ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 Industry innovation policy and technology diffusion
+\par Promotion of industrial research and development, and commercialisation
+\par Mineral and energy industries, including oil and gas, and electricity 
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\fs26\insrsid13982889 National energy market
+\par Energy-specific international organisations and activities
+\par Administration of export controls on energy products
+\par Biotechnology, excluding gene technology regulation
+\par Export services
+\par Minerals and energy resources research, science and technology
+\par Marketing, including export promotion, of manufactures and services
+\par Investment promotion, attraction and facilitation
+\par Enterprise improvement
+\par Tourism industry
+\par Construction industry
+\par Small business policy and implementation 
+\par Business entry point management
+\par Facilitation of the development of service industries generally
+\par Bounties on the production of goods
+\par Trade marks, plant breeder\rquote s rights and patents of inventions and designs
+\par }\pard \ql \li0\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin0\itap0 {\fs26\insrsid13982889 Country of origin labelling
+\par Weights and measures standards
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 Civil space issues
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\fs26\insrsid13982889 Analytical laboratory services
+\par }\pard \ql \fi-142\li142\ri0\widctlpar\faauto\adjustright\rin0\lin142\itap0 {\fs26\insrsid13982889 Geoscience research and information services including geodesy, mapping, remote sensing and land information co-ordination
+\par }\pard \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\fs26\insrsid13982889 Ionospheric prediction
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 
+\par }\pard \qc \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 Legislation administered by the Minister}{\fs26\insrsid13982889 
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 ACIS Administration Act 1999
+\par ACIS (Unearned Credit Liability) Act 1999
+\par Advance Australia Logo Protection Act 1984
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Atomic Energy Act 1953}{\fs26\insrsid13982889 
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Australian Energy Market Act 2004
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Bounty (Bed Sheeting) Act 1977}{\fs26\insrsid13982889 
+\par }{\i\fs26\insrsid13982889 Bounty (Books) Act 1986}{\fs26\insrsid13982889 
+\par }{\i\fs26\insrsid13982889 Bounty (Citric Acid) Act 1991
+\par Bounty (Computers) Act 1984
+\par Bounty (Fuel Ethanol) Act 1994
+\par Bounty (Machine Tools and Robots) Act 1985
+\par Bounty (Photographic Film) Act 1989
+\par Bounty (Printed Fabrics) Act 1981
+\par Bounty (Ships) Act 1989
+\par Bounty and Capitalisation Grants (Textile Yarns) Act 1981}{\fs26\insrsid13982889 
+\par }{\i\fs26\insrsid13982889 Coal Industry Repeal Act 2001
+\par Coal Industry Repeal (Validation of Proclamation) Act 2002
+\par Coal Research Assistance Act 1977
+\par Designs Act 2003
+\par Foreign Corporations (Application of Laws) Act 1989
+\par Gas Pipelines Access (Commonwealth) Act 1998
+\par Greater Sunrise Unitisation Agreement Implementation Act 2004
+\par Industrial Research and Development Incentives Act 1976
+\par Industry Research and Development Act 1986
+\par Liquefied Petroleum Gas (Grants) Act 1980
+\par Liquid Fuel Emergency Act 1984
+\par Moomba-Sydney Pipeline System Sale Act 1994
+\par Mutual Recognition Act 1992,}{\fs26\insrsid13982889  except to the extent administered by the Minister for Education, Science and Training}{\i\fs26\insrsid13982889 
+\par National Measurement Act 1960
+\par Offshore Minerals Act 1994
+\par Offshore Minerals (Exploration Licence Fees) Act 1981
+\par Offshore Minerals (Mining Licence Fees) Act 1981
+\par Offshore Minerals (Retention Licence Fees) Act 1994
+\par Offshore Minerals (Registration Fees) Act 1981
+\par Offshore Minerals (Royalty) Act 1981
+\par Offshore Minerals (Works Licence Fees) Act 1981
+\par Offshore Petroleum (Safety Levies) Act 2003
+\par Olympic Insignia Protection Act 1987
+\par Patents Act 1990
+\par Petroleum Retail Marketing Franchise Act 1980
+\par Petroleum Retail Marketing Sites Act 1980
+\par Petroleum Revenue Act 1985
+\par Petroleum (Submerged Lands) Act 1967
+\par Petroleum (Submerged Lands) Fees Act 1994
+\par Petroleum (Submerged Lands) (Registration Fees) Act 1967
+\par Petroleum (Submerged Lands) (Royalty) Act 1967
+\par Petroleum (Timor Sea Treaty) Act 2003
+\par Pipeline Authority Act 1973
+\par Plant Breeder\rquote s Rights Act 1994
+\par Pooled Development Funds Act 1992
+\par Primary Industries and Energy Research and Development Act 1989}{\fs26\insrsid13982889 , in so far as it relates to all matters concerning the Energy Research and Development Corporation}{\i\fs26\insrsid13982889 
+\par Scout Association Act 1924
+\par Snowy Hydro Corporatisation Act 1997
+\par Snowy Hydro Corporatisation (Consequential Amendments) Act 1997
+\par Snowy Mountains Engineering Corporation Act 1970
+\par Snowy Mountains Engineering Corporation (Conversion into Public Company) Act 1989
+\par Snowy Mountains Engineering Corporation Limited Sale Act 1993
+\par Space Activities Act 1998
+\par States Grants (Petroleum Products) Act 1965
+\par Statute Law (Miscellaneous Amendments) Act (No. 1) 1982, }{\fs26\insrsid13982889 sections 191 and 192}{\i\fs26\insrsid13982889 
+\par Sydney 2000 Games (Indicia and Images) Protection Act 1996
+\par Textile, Clothing and Footwear Strategic Investment Program Act 1999
+\par Tourism Australia Act 2004 
+\par Tourism Australia (Repeal and Transitional Provisions) Act 2004 
+\par Trade Marks Act 1995
+\par Trade Practices Act 1974}{\fs26\insrsid13982889 , Division 1AA of Part V
+\par }{\i\fs26\insrsid13982889 Tradex Scheme Act 1999}{\i\fs26\insrsid13982889\charrsid8534852 
+\par }{\i\fs26\insrsid13982889 Tradex Duty Imposition (Customs) Act 1999
+\par Tradex Duty Imposition (General) Act 1999
+\par Tradex Duty Imposition (Excise) Act 1999
+\par Trans-Tasman Mutual Recognition Act 1997}{\fs26\insrsid13982889 , in relation to goods provision
+\par }{\i\fs26\insrsid13982889 Venture Capital Act 2002
+\par 
+\par }\pard \ql \fi-1440\li1440\ri0\widctlpar\faauto\adjustright\rin0\lin1440\itap0 {\b\fs26\insrsid13982889 {\*\bkmkstart DOPIE}{\*\bkmkend DOPIE}\page {\*\bkmkstart PMC}{\*\bkmkend PMC}PART 15 \tab THE DEPARTMENT OF THE PRIME MINISTER AND CABINET
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\b\i\fs26\insrsid13982889 
+\par }\pard \qc \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\b\i\fs26\insrsid13982889 Matters dealt with by the Department
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\fs26\insrsid13982889 
+\par Co-ordination of Government administration
+\par Assistance to Cabinet and its Committees
+\par Policy advice and administrative support to the Prime Minister
+\par Intergovernmental relations and communications with State and Territory Governments
+\par Australian honours and symbols policy}{\i\fs26\insrsid13982889 
+\par }{\fs26\insrsid13982889 Government ceremonial and hospitality
+\par }\pard \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\fs26\insrsid13982889 Co-ordination of Government communications and advertising
+\par Counter terrorism policy co-ordination
+\par Water policy co-ordination
+\par 
+\par }\pard \qc \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\b\i\fs26\insrsid13982889 Legislation administered by the Minister
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Administrative Arrangements Act 1987
+\par Auditor-General Act 1997
+\par Australian Capital Territory Government Service (Consequential Provisions) Act 1994
+\par Complaints (Australian Federal Police) Act 1981, }{\fs26\insrsid13982889 Part III
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Defence Act 1903}{\fs26\insrsid13982889\charrsid12393096 , Part IIIAAA}{\fs26\insrsid13982889 
+ insofar as it relates to the powers or functions of the Prime Minister as an authorising minister}{\i\fs26\insrsid13982889 
+\par Flags Act 1953}{\fs26\insrsid13982889 
+\par }\pard\plain \s3\ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\outlinelevel2\adjustright\rin0\lin181\itap0 \i\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 Governor-General Act 1974
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\i\fs26\insrsid13982889 House of Representatives (Quorum) Act 1989
+\par Inspector-General of Intelligence and Security Act 1986
+\par National Water Commission Act 2004 
+\par Office of National Assessments Act 1977
+\par }\pard\plain \s3\ql \fi-180\li180\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel2\adjustright\rin0\lin180\itap0 \i\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 Ombudsman Act 1976
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\i\fs26\insrsid13982889 Parliamentary Commission of Inquiry (Repeal) Act 1986
+\par Parliamentary Presiding Officers Act 1965
+\par Public Service Act 1999
+\par Resource Assessment Commission Act 1989
+\par Royal Commissions Act 1902
+\par Royal Powers Act 1953
+\par Royal Style and Titles Act 1973
+\par Senate (Quorum) Act 1991
+\par }{\fs26\insrsid13982889 
+\par }\pard\plain \s17\ql \fi-1440\li1440\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin1440\itap0 \i\fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\fs26\insrsid13982889 {\*\bkmkstart DSS}{\*\bkmkstart TOURISM}{\*\bkmkend DSS}{\*\bkmkend TOURISM}
+\page }{\b\i0\fs26\insrsid13982889 PART 16\tab \tab THE DEPARTMENT OF TRANSPORT AND REGIONAL SERVICES 
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\fs26\insrsid13982889 
+\par }\pard \qc \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\b\i\fs26\insrsid13982889 Matters dealt with by the Department}{\fs26\insrsid13982889 
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\fs26\insrsid13982889 
+\par Transport safety, including investigations
+\par Land transport
+\par Civil aviation and airports
+\par Transport security
+\par Delivery of regional and rural specific services
+\par Maritime transport including shipping
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 Regional development
+\par Matters relating to local government
+\par Planning and land management in the Australian Capital Territory
+\par Administration of the Jervis Bay Territory, the Territory of Cocos (Keeling) Islands, the Territory of Christmas Island, the Coral Sea Islands Territory, the Territory of Ashmore and Cartier Islands, and of Commonwealth responsibilities on Norfolk Island
+
+\par Constitutional development of the Australian Capital Territory
+\par Constitutional development of the Northern Territory of Australia
+\par Natural disaster relief and mitigation in the form of financial assistance to the States and Territories
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\b\i\fs26\insrsid13982889 
+\par }\pard \qc \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\b\i\fs26\insrsid13982889 Legislation administered by the Minister}{\fs26\insrsid13982889 
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 
+\par ACT Self-Government (Consequential Provisions) Act 1988
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Adelaide Airport Curfew Act 2000
+\par Air Accidents (Commonwealth Government Liability) Act 1963
+\par Air Navigation Act 1920
+\par Air Navigation (Charges) Act 1952
+\par Air Navigation Legislation (Validation and Interpretation) Act 1982
+\par Aircraft Noise Levy Act 1995}{\fs26\insrsid13982889 , except to the extent administered by the Treasurer}{\i\fs26\insrsid13982889 
+\par Aircraft Noise Levy Collection Act 1995}{\fs26\insrsid13982889 , except to the extent administered by the Treasurer
+\par }{\i\fs26\insrsid13982889 Air Passenger Ticket Levy (Imposition) Act 2001
+\par Air Passenger Ticket Levy (Collection) Act 2001}{\fs26\insrsid13982889 , except to the extent administered by the Minister for Employment and Workplace Relations}{\i\fs26\insrsid13982889 
+\par Airports Act 1996
+\par Air Services Act 1995
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 ANL Act 1956
+\par Ashmore and Cartier Islands Acceptance Act 1933
+\par AusLink (National Land Transport) Act 2005 
+\par AusLink (National Land Transport\emdash Consequential and Transitional Provisions) Act 2005
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Australian Airlines (Conversion to Public Company) Act 1988
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Australian Capital Territory (Planning and Land Management) Act 1988, }{\fs26\insrsid13982889 except to the extent administered by the Minister
+ for Finance and Administration}{\i\fs26\insrsid13982889 
+\par Australian Capital Territory (Self-Government) Act 1988
+\par Australian Capital Territory Stamp Duty Act 1969
+\par Australian Capital Territory Tax (Cheques) Act 1969
+\par Australian Capital Territory Tax (Hire-purchase Business) Act 1969
+\par Australian Capital Territory Tax (Insurance Business) Act 1969
+\par Australian Capital Territory Tax (Life Insurance Business) Act 1981
+\par Australian Capital Territory Tax (Purchases of Marketable Securities) Act 1969
+\par Australian Capital Territory Tax (Sales of Marketable Securities) Act 1969
+\par Australian Capital Territory Tax (Transfers of Marketable Securities) Act 1986
+\par Australian Capital Territory Tax (Vehicle Registration) Act 1981
+\par Australian Capital Territory Taxation (Administration) Act 1969
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Australian Land Transport Development Act 1988
+\par Australian Maritime Safety Authority Act 1990
+\par Australian National Railways Commission Sale Act 1997
+\par Australian National Railways Commission (Transitional Provisions and Consequential Amendments) Act 1983
+\par Aviation Fuel Revenues (Special Appropriation) Act 1988
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Aviation Transport Security Act 2004
+\par Aviation Transport Security (Consequential Amendments and Transitional Provisions) Act 2004
+\par Canberra Water Supply (Googong Dam) Act 1974
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Carriage of Goods by Sea Act 1991
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Christmas Island Act 1958
+\par }{\fs26\insrsid13982889 Christmas Island Agreement Acts}{\i\fs26\insrsid13982889 
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Civil Aviation Act 1988
+\par Civil Aviation (Carriers\rquote  Liability) Act 1959
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Civil Aviation Legislation Amendment Act 1995
+\par Cocos (Keeling) Islands Act 1955
+\par Coral Sea Islands Act 1969
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Damage by Aircraft Act 1999
+\par Euthanasia Laws Act 1997
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Growth Centres (Financial Assistance) Act 1973
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 International Air Services Commission Act 1992
+\par Interstate Road Transport Act 1985
+\par Interstate Road Transport Charge Act 1985
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Jervis Bay Territory Acceptance Act 1915
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Land Commissions (Financial Assistance) Act 1973
+\par Lighthouses Act 1911
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Limitation of Liability for Maritime Claims Act 1989
+\par Local Government (Financial Assistance) Act 1995
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Marine Navigation Levy Act 1989
+\par Marine Navigation Levy Collection Act 1989
+\par Marine Navigation (Regulatory Functions) Levy Act 1991
+\par Marine Navigation (Regulatory Functions) Levy Collection Act 1991
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Maritime College Act 1978
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Maritime Transport and Offshore Facilities Security Act 2003
+\par Motor Vehicle Standards Act 1989
+\par National Rail Corporation Agreement Act 1992
+\par National Railway Network (Financial Assistance) Act 1979
+\par National Road Transport Commission Act 1991
+\par National Transport Commission Act 2003
+\par Navigation Act 1912
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Norfolk Island Act 1979
+\par Northern Territory Acceptance Act 1910
+\par Northern Territory (Self-Government) Act 1978, }{\fs26\insrsid13982889 except sections 69 and 70}{\i\fs26\insrsid13982889 
+\par Parliament Act 1974
+\par Pay-roll Tax (Territories) Act 1971
+\par Pay-roll Tax (Territories) Assessment Act 1971
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Port Statistics Act 1977
+\par Protection of the Sea (Civil Liability) Act 1981
+\par Protection of the Sea (Imposition of Contributions to Oil Pollution Compensation Fund - Customs) Act 1993
+\par Protection of the Sea (Imposition of Contributions to Oil Pollution Compensation Fund - Excise) Act 1993
+\par Protection of the Sea (Imposition of Contributions to Oil Pollution Compensation Fund - General) Act 1993
+\par Protection of the Sea (Oil Pollution Compensation Fund) Act 1993
+\par Protection of the Sea (Powers of Intervention) Act 1981
+\par Protection of the Sea (Prevention of Pollution from Ships) Act 1983
+\par Protection of the Sea (Shipping Levy) Act 1981}{\fs26\insrsid13982889 
+\par }{\i\fs26\insrsid13982889 Protection of the Sea (Shipping Levy Collection) Act 1981}{\fs26\insrsid13982889 
+\par }{\i\fs26\insrsid13982889 Qantas Sale Act 1992,}{\fs26\insrsid13982889  Part 3, sections 7 to 13 inclusive}{\i\fs26\insrsid13982889 
+\par Railway Agreement (Western Australia) Act 1961
+\par Railway Standardization (New South Wales and Victoria) Agreement Act 1958
+\par Railway Standardization (South Australia) Agreement Act 1949
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Removal of Prisoners (Territories) Act 1923, }{\fs26\insrsid13982889 insofar as it relates to the Northern Territory of Australia (except to the 
+extent administered by the Attorney\_General) and to Norfolk Island, the Territory of Cocos (Keeling) Islands, the Territory of Christmas Island, the Coral Sea Islands Territory, and the Territory of Ashmore and Cartier Islands
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Road Transport Charges (Australian Capital Territory) Act 1993
+\par Road Transport Reform (Dangerous Goods) Act 1995
+\par Road Transport Reform (Heavy Vehicles Registration) Act 1997
+\par Road Transport Reform (Vehicles and Traffic) Act 1993
+\par }{\fs26\insrsid13982889 Roads Acts Amendment Acts
+\par Roads Grants Acts
+\par }{\i\fs26\insrsid13982889 Roads to Recovery Act 2000
+\par Shipping Grants Legislation Act 1996
+\par Shipping Registration Act 1981
+\par Ships (Capital Grants) Act 1987
+\par }\pard \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\fs26\insrsid13982889 Seat of Government Acceptance Acts
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Seat of Government Act 1908
+\par Seat of Government (Administration) Act 1910
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 States Grants (Roads) Act 1977
+\par }{\fs26\insrsid13982889 States Grants (Urban Public Transport) Acts
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Stevedoring Industry Charge (Termination) Act 1977
+\par Stevedoring Levy (Collection) Act 1998
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Stevedoring Levy (Imposition) Act 1998
+\par Submarine Cables and Pipelines Protection Act 1963
+\par Sydney Airport Curfew Act 1995
+\par Sydney Airport Demand Management Act 1997
+\par Tasmania Agreement (Launceston Precision Tool Annexe) Act 1980
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 Telstra Corporation Act 1991}{\fs26\insrsid13982889 , Division 2 of Part 9}{\i\fs26\insrsid13982889 
+\par Territories Law Reform Act 1992
+\par Trade Practices Act 1974}{\fs26\insrsid13982889 , Part X}{\i\fs26\insrsid13982889 
+\par Transport Legislation Amendment (Search and Rescue) Act 1997
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 Transport Safety Investigation Act 2003
+\par Urban and Regional Development (Financial Assistance) Act 1974}{\fs26\insrsid13982889 
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 {\*\bkmkstart TREASURY}{\*\bkmkend TREASURY}
+\par }\pard\plain \s1\ql \li0\ri0\widctlpar\tx1304\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \b\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 \page PART 17  \tab THE DEPARTMENT OF THE TREASURY
+\par }\pard\plain \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\b\i\fs26\insrsid13982889 
+\par }\pard \qc \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\b\i\fs26\insrsid13982889 Matters dealt with by the Department}{\fs26\insrsid13982889 
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\fs26\insrsid13982889 
+\par Economic, fiscal and monetary policy
+\par Taxation
+\par Borrowing money on the public credit of the Commonwealth
+\par International finance
+\par Foreign exchange
+\par Financial sector policy
+\par Currency and legal tender
+\par Foreign investment in Australia
+\par Superannuation and retirement savings policy
+\par Business law and practice
+\par Corporate, financial services and securities law
+\par Corporate insolvency
+\par Competition and consumer policy
+\par Prices surveillance
+\par Excise
+\par Census and statistics
+\par Valuation services
+\par Commonwealth-State financial relations
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 
+\par }\pard \qc \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 Legislation administered by the Minister
+\par }{\fs26\insrsid13982889 
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\i\fs26\insrsid13982889 A New Tax System (Australian Business Number) Act 1999
+\par A New Tax System (Bonuses for Older Australians) Act 1999}{\fs26\insrsid13982889 , Parts\~1 and\~5 insofar as they relate to Australian Taxation Office customers and Part\~4
+\par }{\i\fs26\insrsid13982889 A New Tax System (Commonwealth-State Financial Arrangements) Act 1999
+\par A New Tax System (End of Sales Tax) Act 1999
+\par A New Tax System (Goods and Services Tax) Act 1999
+\par A New Tax System (Goods and Services Tax Imposition - Customs) Act 1999
+\par A New Tax System (Goods and Services Tax Imposition - Excise) Act 1999
+\par A New Tax System (Goods and Services Tax Imposition - General) Act 1999
+\par A New Tax System (Goods and Services Tax Imposition (Recipients)\emdash Customs) Act 2005 
+\par A New Tax System (Goods and Services Tax Imposition (Recipients)\emdash Excise) Act 2005 
+\par A New Tax System (Goods and Services Tax Imposition (Recipients)\emdash General) Act 2005 
+\par A New Tax System (Goods and Services Tax Transition) Act 1999 
+\par A New Tax System (Luxury Car Tax) Act 1999
+\par A New Tax System (Luxury Car Tax Imposition - Customs) Act 1999
+\par A New Tax System (Luxury Car Tax Imposition - Excise) Act 1999
+\par A New Tax System (Luxury Car Tax Imposition - General) Act 1999
+\par A New Tax System (Medicare Levy Surcharge - Fringe Benefits) Act 1999
+\par A New Tax System (Wine Equalisation Tax) Act 1999
+\par A New Tax System (Wine Equalisation Tax and Luxury Car Tax Transition) Act 1999
+\par A New Tax System (Wine Equalisation Tax Imposition - Customs) Act 1999
+\par A New Tax System (Wine Equalisation Tax Imposition - Excise) Act 1999
+\par A New Tax System (Wine Equalisation Tax Imposition - General) Act 1999
+\par Aircraft Noise Levy Act 1995}{\fs26\insrsid13982889 , subsection 6(1) insofar as it relates to levy unit, subsections 6(3) and 6(4) and section 8 in relation to the foregoing}{\i\fs26\insrsid13982889 
+\par Aircraft Noise Levy Collection Act 1995}{\fs26\insrsid13982889 , section 7}{\i\fs26\insrsid13982889 
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 ANL Guarantee Act 1994
+\par Appropriation (HIH Assistance) Act 2001
+\par }\pard\plain \s3\ql \fi-180\li180\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel2\adjustright\rin0\lin180\itap0 \i\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 Asian Development Bank Act 1966
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\fs26\insrsid13982889 Asian Development Bank (Additional Subscription) Acts
+\par }{\i\fs26\insrsid13982889 Australian Bureau of Statistics Act 1975
+\par Australian Prudential Regulation Authority Act 1998
+\par Australian Securities and Investments Commission Act 2001
+\par }\pard\plain \s3\ql \fi-180\li180\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel2\adjustright\rin0\lin180\itap0 \i\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 
+Authorised Deposit-taking Institutions Supervisory Levy Imposition Act 1998
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\i\fs26\insrsid13982889 Authorised Non-operating Holding Companies Supervisory Levy Imposition Act 1998
+
+\par Bank Integration Act 1991
+\par }\pard\plain \s3\ql \fi-180\li180\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel2\adjustright\rin0\lin180\itap0 \i\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 Banking Act 1959
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\i\fs26\insrsid13982889 Banking (State Bank of South Australia and Other Matters) Act 1994
+\par Banking (Transitional Provisions) Act 1959
+\par Bills of Exchange Act 1909
+\par Coal Excise Act 1949
+\par Census and Statistics Act 1905
+\par Charter of Budget Honesty Act 1998
+\par Cheques Act 1986
+\par Commonwealth Authorities (Australian Capital Territory Pay-roll Tax) Act 1995
+\par Commonwealth Authorities (Northern Territory Pay-roll Tax) Act 1979
+\par Commonwealth Bank Sale Act 1995
+\par Commonwealth Banks Act 1959
+\par Commonwealth Borrowing Levy Act 1987
+\par Commonwealth Borrowing Levy Collection Act 1987
+\par Commonwealth Functions (Statutes Review) Act 1981, }{\fs26\insrsid13982889 section 234}{\i\fs26\insrsid13982889 
+\par Commonwealth Inscribed Stock Act 1911
+\par Commonwealth Places (Mirror Taxes) Act 1998
+\par Commonwealth Places Windfall Tax (Collection) Act 1998
+\par Commonwealth Places Windfall Tax (Imposition) Act 1998
+\par Commonwealth Volunteers Protection Act 2003
+\par Company Recoupment Tax Act 1990
+\par Competition Policy Reform Act 1995
+\par Co-operative Farmers and Graziers Direct Meat Supply Limited (Loan Guarantee) Act 1978
+\par Corporations Act 2001}{\fs26\insrsid13982889 , except to the extent administered by the Attorney-General
+\par }\pard\plain \s3\ql \fi-180\li180\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel2\adjustright\rin0\lin180\itap0 \i\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 Corporations (Compensation Arrangements Levies) Act 2001
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\i\fs26\insrsid13982889 Corporations (Fees) Act 2001
+\par Corporations (Futures Organisations Levies) Act 2001
+\par Corporations (National Guarantee Fund Levies) Act 2001
+\par Corporations (Securities Exchanges Levies) Act 2001
+\par Crimes (Taxation Offences) Act 1980
+\par Crown Debts (Priority) Act 1981
+\par Currency Act 1965
+\par Debits Tax Act 1982
+\par Debits Tax Administration Act 1982
+\par Development Allowance Authority Act 1992
+\par Distillation Act 1901
+\par Energy Grants (Cleaner Fuels) Scheme Act 2004
+\par Energy Grants (Credits) Scheme Act 2003
+\par European Bank for Reconstruction and Development Act 1990
+\par Excise Act 1901
+\par Excise Tariff Act 1921
+\par Extension of Charitable Purpose Act 2004 
+\par Family Trust Distribution Tax (Primary Liability) Act 1998
+\par Family Trust Distribution Tax (Secondary Liability) Act 1998
+\par Financial Agreement Act 1994
+\par Financial Agreement Validation Act 1929
+\par Financial Agreements (Commonwealth Liability) Act 1932
+\par Financial Corporations (Transfer of Assets and Liabilities) Act 1993
+\par Financial Institutions Supervisory Levies Collection Act 1998
+\par Financial Sector (Collection of Data) Act 2001
+\par Financial Sector (Shareholdings) Act 1998
+\par Financial Sector (Transfers of Business) Act 1999
+\par Foreign Acquisitions and Takeovers Act 1975
+\par Franchise Fees Windfall Tax (Collection) Act 1997
+\par Franchise Fees Windfall Tax (Imposition) Act 1997
+\par Fringe Benefits Tax Act 1986
+\par Fringe Benefits Tax (Application to the Commonwealth) Act 1986
+\par Fringe Benefits Tax Assessment Act 1986
+\par Fringe Benefits Tax (Miscellaneous Provisions) Act 1986
+\par Fuel Blending (Penalty Surcharge) Act 1997
+\par Fuel Misuse (Penalty Surcharge) Act 1997
+\par Fuel Sale (Penalty Surcharge) Act 1997
+\par Fuel Sales Grants Act 2000
+\par Fuel (Penalty Surcharges) Administration Act 1997
+\par General Insurance Supervisory Levy Imposition Act 1998
+\par General Interest Charge (Imposition) Act 1999
+\par }{\fs26\insrsid13982889 Health Insurance Levy Assessment Acts
+\par }{\i\fs26\insrsid13982889 Housing Loans Guarantees (Australian Capital Territory) Act 1959
+\par Housing Loans Guarantees (Northern Territory) Act 1959
+\par Housing Loans Insurance Corporation Act 1965
+\par Housing Loans Insurance Corporation (Transfer of Assets and Abolition) Act 1996
+\par Income Tax Act 1986
+\par Income Tax (Arrangements with the States) Repeal Act 1989
+\par }{\fs26\insrsid13982889 Income Tax Assessment Acts}{\i\fs26\insrsid13982889 
+\par Income Tax (Bearer Debentures) Act 1971
+\par Income Tax (Deferred Interest Securities) (Tax File Number Withholding Tax) Act 1991
+\par Income Tax (Deficit Deferral) Act 1994
+\par Income Tax (Diverted Income) Act 1981
+\par Income Tax (Dividends, Interest and Royalties Withholding Tax) Act 1974
+\par Income Tax (Former Complying Superannuation Funds) Act 1994
+\par Income Tax (Former Non-resident Superannuation Funds) Act 1994
+\par Income Tax (Franking Deficit) Act 1987
+\par Income Tax (Fund Contributions) Act 1989
+\par Income Tax (Mining Withholding Tax) Act 1979
+\par Income Tax (Offshore Banking Units) (Withholding Tax Recoupment) Act 1988
+\par Income Tax (Royalties) Act 1977
+\par Income Tax (Securities and Agreements) (Withholding Tax Recoupment) Act 1986
+\par Income Tax (Superannuation Payments Withholding Tax) Act 2002
+\par }\pard\plain \s3\ql \fi-180\li180\ri0\keepn\widctlpar\tx1304\faauto\outlinelevel2\adjustright\rin0\lin180\itap0 \i\fs26\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\insrsid13982889 Income Tax (Transitional Provisions) Act 1997
+\par Income Tax (Untainting Tax) Act 1998
+\par }\pard\plain \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 \fs24\lang3081\langfe3081\cgrid\langnp3081\langfenp3081 {\i\fs26\insrsid13982889 Income Tax (Withholding Tax Recoupment) Act 1971
+\par Income Tax Rates Act 1986
+\par Infrastructure Certificate Cancellation Tax Act 1994
+\par Inspector-General of Taxation Act 2003
+\par Insurance Acquisitions and Takeovers Act 1991
+\par Insurance Act 1973
+\par Insurance Contracts Act 1984
+\par International Bank for Reconstruction and Development (General Capital Increase) Act 1989
+\par International Bank for Reconstruction and Development (Share Increase) Act 1988
+\par International Finance Corporation Act 1955
+\par }{\fs26\insrsid13982889 International Financial Institutions (Share Increase) Acts
+\par International Monetary Agreements Acts}{\i\fs26\insrsid13982889 
+\par International Monetary Agreements (Quota Increase) Act 1980
+\par International Monetary Fund (Quota Increase) Act 1983
+\par International Tax Agreements Act 1953 
+\par James Hardie (Investigations and Proceedings) Act 2004 
+\par Life Insurance Act 1995
+\par Life Insurance Supervisory Levy Imposition Act 1998
+\par }{\fs26\insrsid13982889 Loan Acts, to the extent to which they give authority to borrow}{\i\fs26\insrsid13982889 
+\par Loan (Temporary Revenue Deficits) Act 1953, }{\fs26\insrsid13982889 except section 3}{\i\fs26\insrsid13982889 
+\par Loans (Australian Industry Development Corporation) Act 1974
+\par }{\fs26\insrsid13982889 Loans (Qantas Airways Limited) Acts}{\i\fs26\insrsid13982889 
+\par Loans Redemption and Conversion Act 1921
+\par Loans Securities Act 1919
+\par Loans (Taxation Exemption) Act 1978
+\par Medical Indemnity (Prudential Supervision and Product Standards) Act 2003}{\fs26\insrsid13982889\charrsid9718061 , }{\fs26\insrsid13982889 except to the extent administered by the Minister for Health and Ageing }{\i\fs26\insrsid13982889  
+\par Medicare Levy Act 1986
+\par Mint Employees Act 1964
+\par Multilateral Investment Guarantee Agency Act 1997
+\par New Business Tax System (Franking Deficit Tax) Act 2002
+\par New Business Tax System (Over-Franking) Act 2002
+\par Northern Territory Grant (Electricity) Act 1989
+\par Northern Territory Grant (Special Assistance) Act 1983
+\par Northern Territory (Lessees' Loans Guarantee) Act 1954
+\par Occupational Superannuation Standards Regulations Application Act 1992
+\par }{\fs26\insrsid13982889 Papua and New Guinea Loan (International Bank) Acts}{\i\fs26\insrsid13982889 
+\par }{\fs26\insrsid13982889 Papua New Guinea Loan (Asian Development Bank) Acts}{\i\fs26\insrsid13982889 
+\par Papua New Guinea Loan Guarantee Act 1973
+\par }{\fs26\insrsid13982889 Papua New Guinea Loan (International Bank) Acts}{\i\fs26\insrsid13982889 
+\par }{\fs26\insrsid13982889 Papua New Guinea Loans Guarantee Acts}{\i\fs26\insrsid13982889 
+\par Papua New Guinea (Transfer of Banking Business) Act 1973
+\par Payment of Tax Receipts (Victoria) Act 1996
+\par Payment Systems and Netting Act 1998
+\par Payment Systems (Regulation) Act 1998
+\par Pay-roll Tax Act 1941
+\par Pay-roll Tax Assessment Act 1941
+\par Pay-roll Tax (State Taxation of Commonwealth Authorities) Act 1971
+\par Pay-roll Tax (Termination of Commonwealth Tax) Act 1971
+\par Petroleum Excise (Prices) Act 1987
+\par Petroleum Resource Rent Tax Act 1987
+\par Petroleum Resource Rent Tax Assessment Act 1987
+\par Petroleum Resource Rent Tax (Interest on Underpayments) Act 1987
+\par Petroleum Resource Rent Tax (Miscellaneous Provisions) Act 1987
+\par Prices Surveillance Act 1983
+\par Product Grants and Benefits Administration Act 2000
+\par Productivity Commission Act 1998
+\par Productivity Commission (Repeals, Transitional and Consequential Amendments) Act 1998
+\par }{\fs26\insrsid13982889 Qantas Airways Limited (Loan Guarantee) Acts
+\par }{\i\fs26\insrsid13982889 Qantas Sale Act 1992,}{\fs26\insrsid13982889  sections 14, 16 and 17
+\par Queensland Grant (Special Assistance) Acts}{\i\fs26\insrsid13982889 
+\par Reserve Bank Act 1959
+\par Retirement Savings Accounts Act 1997
+\par Retirement Savings Account Providers Supervisory Levy Imposition Act 1998
+\par }{\fs26\insrsid13982889 Sales Tax Acts
+\par Sales Tax Assessment Acts
+\par }{\i\fs26\insrsid13982889 Sales Tax (Customs) (Alcoholic Beverages) Act 1997
+\par Sales Tax (Customs) (Deficit Reduction) Act 1993
+\par Sales Tax (Customs) (Wine-Deficit Reduction) Act 1993
+\par Sales Tax (Excise) (Alcoholic Beverages) Act 1997
+\par Sales Tax (Excise) (Deficit-Reduction) Act 1993
+\par Sales Tax (Excise) (Wine-Deficit Reduction) Act 1993}{\fs26\insrsid13982889 
+\par Sales Tax (Exemptions and Classifications) Acts
+\par }{\i\fs26\insrsid13982889 Sales Tax (General) (Alcoholic Beverages) Act 1997
+\par Sales Tax (General) (Deficit-Reduction) Act 1993
+\par Sales Tax (General) (Wine-Deficit Reduction) Act 1993}{\fs26\insrsid13982889 
+\par Sales Tax Imposition Acts
+\par }{\i\fs26\insrsid13982889 Sales Tax (In Situ Pools) (Deficit Reduction) Act 1993
+\par Sales Tax Procedure Act 1934
+\par Sales Tax (World Trade Organization Amendments) Act 1994
+\par Shortfall Interest Charge (Imposition) Act 2005 
+\par Small Superannuation Accounts Act 1995
+\par Spirits Act 1906
+\par States Grants Act 1927
+\par }{\fs26\insrsid13982889 States Grants (Capital Assistance) Acts}{\i\fs26\insrsid13982889 
+\par }{\fs26\insrsid13982889 States (Works and Housing) Assistance Acts}{\i\fs26\insrsid13982889 
+\par Statistical Bureau (Tasmania) Act 1924
+\par Statistics (Arrangements with States) Act 1956
+\par Superannuation Contributions Tax (Application to the Commonwealth) Act 1997
+\par Superannuation Contributions Tax (Application to the Commonwealth - Reduction of Benefits) Act 1997
+\par Superannuation Contributions Tax (Assessment and Collection) Act 1997
+\par Superannuation Contributions Tax (Members of Constitutionally Protected Superannuation Funds) Assessment and Collection Act 1997
+\par Superannuation Contributions Tax (Members of Constitutionally Protected Superannuation Funds) Imposition Act 1997
+\par Superannuation Contributions Tax Imposition Act 1997
+\par Superannuation (Financial Assistance Funding) Levy Act 1993
+\par Superannuation (Government Co-contribution for Low Income Earners) Act 2003
+\par Superannuation Guarantee (Administration) Act 1992
+\par Superannuation Guarantee Charge Act 1992
+\par Superannuation Industry (Supervision) Act 1993
+\par Superannuation (Resolution of Complaints) Act 1993
+\par Superannuation (Self Managed Superannuation Funds) Taxation Act 1987 
+\par Superannuation (Self Managed Superannuation Funds) Supervisory Levy Imposition Act 1991
+\par Superannuation Supervisory Levy Imposition Act 1998
+\par Superannuation (Unclaimed Money and Lost Members) Act 1999
+\par Swimming Pools Tax Refund Act 1992
+\par Taxation Administration Act 1953
+\par Taxation Boards of Review (Transfer of Jurisdiction) Act 1986
+\par }{\fs26\insrsid13982889 Taxation (Deficit Reduction) Acts
+\par }{\i\fs26\insrsid13982889 Taxation (Interest on Non\_Resident Trust Distributions) Act 1990
+\par Taxation (Interest on Overpayments and Early Payments) Act 1983
+\par }{\fs26\insrsid13982889 Taxation Laws Acts
+\par }{\i\fs26\insrsid13982889\charrsid3752920 Taxation Laws (Clearing and Settlement Facility Support) Act 2004 
+\par }{\i\fs26\insrsid13982889 Taxation Laws Improvement (Substantiation) Act 1995
+\par }{\fs26\insrsid13982889 Tax Law Improvement Acts 
+\par }{\i\fs26\insrsid13982889 Termination Payments Tax (Assessment and Collection) Act 1997
+\par Termination Payments Tax Imposition Act 1997
+\par Terrorism Insurance Act 2003
+\par }{\fs26\insrsid13982889 Tobacco Charge Acts}{\i\fs26\insrsid13982889 
+\par Tobacco Charges Assessment Act 1955
+\par Trade Practices Act 1974, }{\fs26\insrsid13982889 except to the extent administered by t
+he Minister for Communications, Information Technology and the Arts, the Minister for Industry, Tourism and Resources and the Minister for Transport and Regional Services
+\par }{\i\fs26\insrsid13982889 Treasury Bills Act 1914
+\par Trust Recoupment Tax Act 1985
+\par Trust Recoupment Tax Assessment Act 1985
+\par }{\fs26\insrsid13982889 Wool Tax Acts}{\i\fs26\insrsid13982889 
+\par Wool Tax (Administration) Act 1964
+\par }\pard \ql \li0\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin0\itap0 {\b\fs26\insrsid13982889 {\*\bkmkstart DVA}{\*\bkmkend DVA}\page PART 18  \tab THE DEPARTMENT OF VETERANS' AFFAIRS
+\par }\pard \ql \fi-181\li181\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin181\itap0 {\b\fs26\insrsid13982889 \tab \tab (Part of the Defence Portfolio)
+\par }\pard \ql \fi-180\li1440\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin1440\itap0 {\b\i\fs26\insrsid13982889 
+\par }\pard \qc \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 Matters dealt with by the Department}{\fs26\insrsid13982889 
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\fs26\insrsid13982889 
+\par Repatriation income support, compensation and health programmes for veterans, members of the Defence Force, certain mariners and their dependants
+\par War graves
+\par Defence Service Homes
+\par }{\b\i\fs26\insrsid13982889 
+\par }\pard \qc \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\b\i\fs26\insrsid13982889 Legislation administered by the Minister}{\fs26\insrsid13982889 
+\par }\pard \ql \fi-180\li180\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin180\itap0 {\i\fs26\insrsid13982889 
+\par A New Tax System (Bonuses for Older Australians) Act 1999}{\fs26\insrsid13982889 , Parts\~1 and\~5 insofar as they relate to Veterans\rquote  Affairs customers and Part\~3
+\par }{\i\fs26\insrsid13982889 Anzac Day Act 1995
+\par Australian War Memorial Act 1980
+\par Compensation (Japanese Internment) Act 2001
+\par Defence Act 1903, }{\fs26\insrsid13982889 in relation to paragraph 124(1)(qba)}{\i\fs26\insrsid13982889 
+\par Defence Service Homes Act 1918
+\par Military Rehabilitation and Compensation Act 2004}{\fs26\insrsid13982889\charrsid2833641 , except to the extent administered by the Minister for Defence
+\par }{\i\fs26\insrsid13982889 Military Rehabilitation and Compensation (Consequential and Transitional Provisions) Act 2004
+\par Papua New Guinea (Members of the Forces Benefits) Act 1957
+\par Repatriation Institutions (Transfer) Act 1992
+\par Safety, Rehabilitation and Compensation Act 1988}{\fs26\insrsid13982889\charrsid4809102 , Part XI except for sections 143(2) and (3), 144(4), 149, 150, 153(2), 156, 158 and 159}{\i\fs26\insrsid13982889 
+\par Veterans\rquote  Entitlements Act 1986
+\par Veterans\rquote  Entitlements (Clarke Review) Act 2004 
+\par Veterans\rquote  Entitlements (Rewrite) Transition Act 1991
+\par War Graves Act 1980
+\par War Precautions Act Repeal Act 1920
+\par }\pard \ql \li0\ri0\widctlpar\tx1304\faauto\adjustright\rin0\lin0\itap0 {\fs26\insrsid13982889  
+\par }} 

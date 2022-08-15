@@ -1,19 +1,21 @@
 ## Amending acts of the Australian Parliament: Analysis  
-## a_file_2: graphing time to first amendment over time.
+## a_file_3: graphing time to first amendment over time.
 ## Patrick Leslie
-## Amended May 2022 to account for significance of amendment
+### similar to a_file_2.R now with administering departments
 
 #libraries
 library(tidyverse)
 
 
 #time to repeal
-principal <- read_csv("outputs/secure outputs/s_file_3_principal_acts_details.csv")
+principal <- read_csv("outputs/secure outputs/s_file_8_principal_acts_departments.csv")
 
 principal<-principal[!grepl("Amendment Act",principal$name),]
 
-repeals<-principal%>%select(id_principal,date_enacted,date_repealed, repealing_act_id)%>%
-  filter(!is.na(date_repealed))
+repeals<-principal%>%select(id_principal,date_enacted,date_repealed, repealing_act_id, dept_1)%>%
+  filter(!is.na(date_repealed)) 
+
+names(repeals)[5]<-"administered_by"
 
 names(repeals)[3]<-"date_event"
 names(repeals)[4]<-"event_act_id"
@@ -31,7 +33,7 @@ repeals$event_type<- "repeal"
 
 
 #time to first amendment...
-principal <- read_csv("outputs/secure outputs/s_file_3_principal_acts_details.csv")
+principal <- read_csv("outputs/secure outputs/s_file_8_principal_acts_departments.csv")
 principal<-principal[!grepl("Amendment Act",principal$name),]
 
 
@@ -45,7 +47,8 @@ amendments<-principal%>%left_join(amending,by="id_principal")%>%filter(!is.na(id
   summarise(date_enacted = min(date_enacted.x),
             first_amendment_date = min(date_enacted.y), 
             event_act_id = id_amending,
-            amend_date = date_enacted.y)%>%
+            amend_date = date_enacted.y,
+            administered_by =dept_1[1])%>%
   filter(first_amendment_date==amend_date)%>%
   select(-amend_date)
 
@@ -68,9 +71,17 @@ joined<-bind_rows(repeals,amendments)
 View(joined[joined$years_to_event<=0,])
 
 
-ggplot(joined%>%filter(event_type=='first amendment'), aes(date_event,years_to_event,colour=event_type, groups=event_type))+
-    geom_smooth()
+ggplot(joined%>%filter(event_type=='first amendment'), 
+       aes(date_event,years_to_event,colour=administered_by ))+
+    geom_smooth(method = "lm")
 
+
+## coming up with a concordance for policy area...
+
+departments<-as.data.frame(principal$dept_1%>%unique())
+names(departments)<-"department"
+departments$CAP_policy_area<-NA
+write_excel_csv(departments,"outputs/a_file_3_departments_to_CAP.csv")
 
 #graphing amendments before end of parliamentary term
 
@@ -253,3 +264,4 @@ ggplot(parliament_sum_weighted, aes(election_date, wt_amended_same_term))+
   scale_x_date(date_breaks="5 year", date_labels = "%Y")+
   theme(axis.text.x = element_text(angle = 90))+
   theme(axis.text.x = element_text(vjust = 0.5))
+
