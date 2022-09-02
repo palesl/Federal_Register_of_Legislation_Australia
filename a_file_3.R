@@ -61,7 +61,7 @@ amendments$years_to_event<-(as.numeric(amendments$first_amendment_date)-
                                   
 names(amendments)[3]<-"date_event"
 
-amendments$event_type<-"first amendment"                            
+amendments$event_type <- "first amendment"                            
                                   
                                   
 #graphing
@@ -247,15 +247,19 @@ principal_acts_plus_event<-principal_acts_plus_event%>%left_join( amend_weights 
 principal_acts_plus_event$amend_weight[is.na(principal_acts_plus_event$amend_weight)]<- 1
 
 parliament_sum_weighted<-principal_acts_plus_event%>%group_by(parl_enacted)%>%
-  summarise(wt_amended_same_term=mean(amended_same_term*amend_weight))%>%
+  summarise(wt_amended_same_term=mean(amended_same_term*amend_weight),
+            wt_one_amended_same_term = mean(amended_same_term==amend_weight),
+            n=n())%>%
   left_join(parl_dates%>%select(election_date,name), by=c('parl_enacted'='name'))
 
 parliament_sum_weighted$election_date<-as.Date(parliament_sum_weighted$election_date, format = "%d.%m.%Y")
 
 parliament_sum_weighted<-parliament_sum_weighted%>%
   arrange(election_date)
-parliament_sum_weighted$wt_amended_same_term <-parliament_sum_weighted$wt_amended_same_term*100
 
+
+parliament_sum_weighted$wt_amended_same_term <-parliament_sum_weighted$wt_amended_same_term*100
+parliament_sum_weighted$wt_one_amended_same_term <- parliament_sum_weighted$wt_one_amended_same_term*100
 
 ggplot(parliament_sum_weighted, aes(election_date, wt_amended_same_term))+
   geom_smooth(se=F, col='grey')+
@@ -264,4 +268,15 @@ ggplot(parliament_sum_weighted, aes(election_date, wt_amended_same_term))+
   scale_x_date(date_breaks="5 year", date_labels = "%Y")+
   theme(axis.text.x = element_text(angle = 90))+
   theme(axis.text.x = element_text(vjust = 0.5))
+
+
+
+ggplot(parliament_sum_weighted, aes(election_date, wt_one_amended_same_term))+
+  geom_smooth(se=F, col='grey')+
+  geom_step() + ylab("Pct amended same term as enacted (weighted)") + xlab('')+
+  scale_y_continuous(limits = c(0,35)) + theme_minimal()+ 
+  scale_x_date(date_breaks="5 year", date_labels = "%Y")+
+  theme(axis.text.x = element_text(angle = 90))+
+  theme(axis.text.x = element_text(vjust = 0.5))
+
 
